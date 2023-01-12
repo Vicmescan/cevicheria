@@ -23,4 +23,9 @@ code {
   width: 7rem;
   margin: -1rem 0;
   padding: -1rem 0;
+  transition: transform 0.5s;
+}
+
+.header .logo:hover {
+  transform: scale(1.2)
 }
