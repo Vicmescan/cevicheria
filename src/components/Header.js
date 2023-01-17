@@ -4,13 +4,13 @@ import { Dropdown, NavItem, NavLink, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { IoLanguage } from "react-icons/io5";
 import logo from "../images/cevdarkfinal.png";
-import "../index.css";
+import "../styles/home.css";
 
 const Header = () => {
   return (
     <div className="header">
 
-      <Navbar expand="md" >
+      <Navbar expand="md" sticky="topchange" >
         <Container>
           <Navbar.Brand as={Link} to="/" className="justify-content-left ">
             <img className="logo" src={logo} alt="logo" />
@@ -19,23 +19,23 @@ const Header = () => {
           <Navbar.Collapse className="justify-content-end">
             <Nav>
           <Nav.Item>
-          <Nav.Link as={Link} to="/">
+          <Nav.Link className="nav-link" as={Link} to="/">
             Home
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1" as={Link} to="/menu">
-            Menu
+          <Nav.Link className="nav-link" eventKey="link-1" as={Link} to="/menu">
+            Menú
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link as={Link} to="/gallery">
-            Gallery
+          <Nav.Link className="nav-link" as={Link} to="/gallery">
+            Galería
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link as={Link} to="/about">
-            About
+          <Nav.Link className="nav-link" as={Link} to="/about">
+            Nosotros
           </Nav.Link>
         </Nav.Item>
         <Dropdown as={NavItem}>

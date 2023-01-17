@@ -2,14 +2,14 @@ import Carousel from 'react-bootstrap/Carousel';
 import header1 from '../images/header1.png';
 import header2 from '../images/header2.jpg';
 import header3 from '../images/header3.jpg';
-import '../index.css';
+import '../styles/home.css';
 
 function HomeCarousel() {
   return (
-    <Carousel fade>
+    <Carousel fade className='carousel'>
       <Carousel.Item>
         <img
-          className="carouselPics d-block w-100"
+          className="carouselPics d-block"
           src={header1} alt="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +19,7 @@ function HomeCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="carouselPics d-block w-100"
+          className="carouselPics d-block"
           src={header2}
           alt="Second slide"
         />
@@ -31,7 +31,7 @@ function HomeCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="carouselPics d-block w-100"
+          className="carouselPics d-block"
           src={header3}
           alt="Third slide"
         />

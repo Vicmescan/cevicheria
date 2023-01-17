@@ -6,7 +6,7 @@ import Menu from "./routes/Menu";
 import Gallery from "./routes/Gallery";
 import About from "./routes/About";
 import ErrorPage from "./routes/error-page";
-import "./index.css";
+import "./styles/index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const router = createBrowserRouter([
