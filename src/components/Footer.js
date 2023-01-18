@@ -6,7 +6,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 function Footer() {
   return (
-    <CardGroup fixed="bottom" className="footer">
+    <CardGroup className="footer">
       <Card className="text-center footer-card">
         <Card.Body>
           <Card.Title>CONTACTO</Card.Title>
