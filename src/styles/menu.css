@@ -12,22 +12,14 @@
     z-index:-3 
 }
 
-.menu-container {
-    text-align: center;
-}
-/* 
-.menu-container-dishes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 80%;
-} */
-
 .menu-title {
     text-align: center;
     margin-bottom: 3rem;
     text-decoration: underline;
+}
+
+.menu-container {
+    text-align: center;
 }
 
 .dish {
