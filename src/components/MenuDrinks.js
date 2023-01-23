@@ -2,10 +2,10 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import MenuDrinksWine from "./MenuDrinksWine";
 import MenuDrinksDrink from "./MenuDrinksDrink";
-import estrella from "../images/drinksImages/estrella.jpg";
-import rothaus from "../images/drinksImages/rothaus.png";
-import lammsbräu from "../images/drinksImages/lammsbräu.jpg";
-import eichhofener from "../images/drinksImages/eichhofener.jpg";
+import estrella from "../images/menuImages/drinksImages/estrella.jpg";
+import rothaus from "../images/menuImages/drinksImages/rothaus.png";
+import lammsbräu from "../images/menuImages/drinksImages/lammsbräu.jpg";
+import eichhofener from "../images/menuImages/drinksImages/eichhofener.jpg";
 
 const MenuDrinks = () => {
   return (

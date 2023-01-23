@@ -2,18 +2,18 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import MenuDishesDish from "./MenuDishesDish";
 import "../styles/menu.css";
-import papas from "../images/menuImages/papas-a-la-huncaina.jpg";
-import lentejasCamote from "../images/menuImages/lentejasCamote.jpeg";
-import tataki from "../images/menuImages/tataki.jpeg";
-import lecheTigre from "../images/menuImages/lecheTigre.jpeg";
-import locro from "../images/menuImages/locro.jpeg";
-import sopaPescao from "../images/menuImages/sopaPescao.jpeg";
-import pulpo from "../images/menuImages/pulpo.jpeg";
-import cevi1 from "../images/menuImages/cevi1.jpeg";
-import cevi2 from "../images/menuImages/cevi2.jpeg";
-import cevi3 from "../images/menuImages/cevi3.jpeg";
-import suspiro from "../images/menuImages/suspiro.jpeg";
-import sueño from "../images/menuImages/sueño.jpeg";
+import papas from "../images/menuImages/dishesImages/papas-a-la-huncaina.jpg";
+import lentejasCamote from "../images/menuImages/dishesImages/lentejasCamote.jpeg";
+import tataki from "../images/menuImages/dishesImages/tataki.jpeg";
+import lecheTigre from "../images/menuImages/dishesImages/lecheTigre.jpeg";
+import locro from "../images/menuImages/dishesImages/locro.jpeg";
+import sopaPescao from "../images/menuImages/dishesImages/sopaPescao.jpeg";
+import pulpo from "../images/menuImages/dishesImages/pulpo.jpeg";
+import cevi1 from "../images/menuImages/dishesImages/cevi1.jpeg";
+import cevi2 from "../images/menuImages/dishesImages/cevi2.jpeg";
+import cevi3 from "../images/menuImages/dishesImages/cevi3.jpeg";
+import suspiro from "../images/menuImages/dishesImages/suspiro.jpeg";
+import sueño from "../images/menuImages/dishesImages/sueño.jpeg";
 
 export default function MenuDishes() {
   return (
