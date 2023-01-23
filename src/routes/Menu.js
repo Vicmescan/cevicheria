@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import Header from "../components/Header";
 import MenuDishes from "../components/MenuDishes";
 import MenuDrinks from "../components/MenuDrinks";
@@ -10,14 +9,12 @@ export default function Menu() {
   return (
     <>
       <Header />
-
       <div className="menu-background"></div>
-      <h1 className="menu-title">Menú</h1>
-      <Container className="menu-container">
+      <h1 className="menu-titles">Menú</h1>
         <MenuDishes />
         <hr></hr>
+        <h1 className="menu-titles">Bebidas</h1>
         <MenuDrinks />
-      </Container>
       <Footer />
     </>
   );
