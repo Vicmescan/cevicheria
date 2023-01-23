@@ -21,63 +21,43 @@ function MyVerticallyCenteredModal(props) {
           src={props.image}
           alt={`${props.title}`}
         ></img>
-        {props.description}
       </Modal.Body>
-      <Modal.Footer>0.1cl {props.price[0]}€, 0.2cl {props.price[1]}€, Botella {props.price[2]}€ </Modal.Footer>
+      <Modal.Footer>
+        {props.size} {props.price}€
+      </Modal.Footer>
     </Modal>
   );
 }
 
-function MenuDrinksWine({ title, image, description, price }) {
+function MenuDrinksDrink({ title, image, size, price, additives }) {
   const [modalShow, setModalShow] = React.useState(false);
 
   return (
     <>
       <Container className="dish" onClick={() => setModalShow(true)}>
         <Row>
-          <Col xs={12} md={8}>
-            {title}<sup>(4)</sup>
+          <Col xs={10} md={8}>
+            {title} {additives ? <sup>({additives})</sup> : null}
           </Col>
-          <Col xs={3} md={2}>
-            0.1cl
+          <Col xs={4} md={2}>
+            {size}
           </Col>
-          <Col xs={3} md={2}>
-            {price[0]}€
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={12} md={8}></Col>
-          <Col xs={3} md={2}>
-            0.2cl
-          </Col>
-          <Col xs={3} md={2}>
-            {price[1]}€
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={12} md={8}>
-            Botella
-          </Col>
-          <Col xs={3} md={2}>
-            0.75cl
-          </Col>
-          <Col xs={3} md={2}>
-            {price[2]}€
+          <Col xs={4} md={2}>
+            {price}€
           </Col>
         </Row>
       </Container>
-      <hr></hr>
 
       <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
         title={title}
         image={image}
-        description={description}
+        size={size}
         price={price}
       />
     </>
   );
 }
 
-export default MenuDrinksWine;
+export default MenuDrinksDrink;

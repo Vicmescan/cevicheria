@@ -11,10 +11,11 @@ export default function Menu() {
       <Header />
       <div className="menu-background"></div>
       <h1 className="menu-titles">Menú</h1>
-        <MenuDishes />
-        <hr></hr>
-        <h1 className="menu-titles">Bebidas</h1>
-        <MenuDrinks />
+      <MenuDishes />
+      <hr></hr>
+      <h1 className="menu-titles">Bebidas</h1>
+      <MenuDrinks />
+      <br></br>
       <Footer />
     </>
   );
