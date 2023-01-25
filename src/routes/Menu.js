@@ -10,9 +10,11 @@ export default function Menu() {
     <>
       <Header />
       <div className="menu-background"></div>
+      <br></br>
       <h1 className="menu-titles">Menú</h1>
       <MenuDishes />
       <hr></hr>
+      <br></br>
       <h1 className="menu-titles">Bebidas</h1>
       <MenuDrinks />
       <br></br>

@@ -84,7 +84,9 @@ const MenuDrinks = () => {
             size="0.50cl"
             price="4.50"
           />
+          <br className="d-md-none" ></br>
         </Col>
+        <hr className="d-md-none"></hr>
         <Col>
           <h3>Longdrinks</h3>
           <br></br>

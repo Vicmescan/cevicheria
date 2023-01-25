@@ -76,6 +76,7 @@ export default function MenuDishes() {
             price={23}
           />
         </Col>
+        <hr className="d-md-none"></hr>
         <Col md>
           <h3>Ceviches</h3>
           <p>( Cada pedido viene acompañado de Canchitas )</p>
