@@ -52,18 +52,11 @@ code {
   color: var(--main-text-color);
 }
 
-.footer-card {
-  background-color: var(--main-background-color) !important;
-  border: none !important;
-}
-
-.footer-icons {
-  display: flex;
-  justify-content: center;
+.row-container {
+  width: 100%;
 }
 
 .footer a {
-  margin: 1rem 1rem 0;
   color: var(--main-text-color);
   text-decoration: none;
 }
@@ -74,7 +67,6 @@ code {
   transform: scale(1.5);
 }
 
-.footer-link a:hover{
+.footer-link a:hover {
   color: var(--main-text-color) !important;
-} 
-
+}
