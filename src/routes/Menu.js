@@ -4,8 +4,12 @@ import MenuDishes from "../components/MenuDishes";
 import MenuDrinks from "../components/MenuDrinks";
 import Footer from "../components/Footer";
 import "../styles/menu.css";
+import ScrollUp from "..";
 
 export default function Menu() {
+
+  ScrollUp();
+
   return (
     <>
       <Header />
