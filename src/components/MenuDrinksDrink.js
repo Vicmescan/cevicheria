@@ -36,13 +36,13 @@ function MenuDrinksDrink({ title, image, size, price, additives }) {
     <>
       <Container className="dish" onClick={() => setModalShow(true)}>
         <Row>
-          <Col xs={10} md={8}>
+          <Col xs={8} md={8}>
             {title} {additives ? <sup>({additives})</sup> : null}
           </Col>
-          <Col xs={4} md={2}>
+          <Col xs={2} md={2}>
             {size}
           </Col>
-          <Col xs={4} md={2}>
+          <Col xs={2} md={2}>
             {price}€
           </Col>
         </Row>

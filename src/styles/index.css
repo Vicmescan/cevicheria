@@ -22,10 +22,6 @@ code {
 .header {
   background-color: var(--main-background-color);
   font-size: 1.3rem;
-  width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 3;
 }
 
 .header .logo {
@@ -54,9 +50,6 @@ code {
 .footer {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
-  position: relative;
-  bottom: 0;
-  width: 100%;
 }
 
 .footer-card {

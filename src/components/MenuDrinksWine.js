@@ -35,33 +35,33 @@ function MenuDrinksWine({ title, image, description, price }) {
     <>
       <Container className="dish" onClick={() => setModalShow(true)}>
         <Row>
-          <Col xs={12} md={8}>
+          <Col xs={8} md={8}>
             {title}<sup>(4)</sup>
           </Col>
-          <Col xs={3} md={2}>
+          <Col xs={2} md={2}>
             0.1cl
           </Col>
-          <Col xs={3} md={2}>
+          <Col className="price" xs={2} md={2}>
             {price[0]}€
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={8}></Col>
-          <Col xs={3} md={2}>
+          <Col xs={8} md={8}></Col>
+          <Col xs={2} md={2}>
             0.2cl
           </Col>
-          <Col xs={3} md={2}>
+          <Col className="price" xs={2} md={2}>
             {price[1]}€
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={8}>
+          <Col xs={8} md={8}>
             Botella
           </Col>
-          <Col xs={3} md={2}>
+          <Col xs={2} md={2}>
             0.75cl
           </Col>
-          <Col xs={3} md={2}>
+          <Col className="price" xs={2} md={2}>
             {price[2]}€
           </Col>
         </Row>

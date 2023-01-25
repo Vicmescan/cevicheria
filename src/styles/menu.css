@@ -23,12 +23,18 @@
 }
 
 .dish {
-    color: var(--main-background-color);
+    color: black;
     font-size: 1.2rem;
+    text-align: left;
+}
+
+.price {
+    text-align: end;
 }
 
 .dish:hover {
     cursor: pointer;
+    color: var(--main-background-color);
 }
 
 .modal-dish-pic {

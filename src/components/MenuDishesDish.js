@@ -33,11 +33,11 @@ function Dish({ title, image, description, price }) {
 
   return (
     <>
-      <Row>
-        <Col xs={10} md={10} className="dish" onClick={() => setModalShow(true)}>
-          {title}
+      <Row className="dish" >
+        <Col xs={10} md={10}  onClick={() => setModalShow(true)}>
+          -{title}
         </Col>
-        <Col>
+        <Col className="price" xs={2} md={2}>
           {price}€
         </Col>
       </Row>

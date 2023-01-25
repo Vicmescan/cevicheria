@@ -8,9 +8,9 @@ import "../styles/home.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    // <div className="header">
 
-      <Navbar expand="md" sticky="topchange" >
+      <Navbar className="header" expand="md" sticky="top" >
         <Container>
           <Navbar.Brand as={Link} to="/" className="justify-content-left ">
             <img className="logo" src={logo} alt="logo" />
@@ -52,43 +52,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      {/* <Nav className="justify-content-end" activeKey="/home">
-        <Navbar.Brand as={Link} to="/" className="justify-content-left ">
-          <img className="logo" src={logo} alt="logo" />
-        </Navbar.Brand>
-        <Nav.Item>
-          <Nav.Link as={Link} to="/">
-            Home
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-1" as={Link} to="/menu">
-            Menu
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link as={Link} to="/gallery">
-            Gallery
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link as={Link} to="/about">
-            About
-          </Nav.Link>
-        </Nav.Item>
-        <Dropdown as={NavItem}>
-          <Dropdown.Toggle as={NavLink}>
-            <IoLanguage />
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item>Español</Dropdown.Item>
-            <Dropdown.Item>Deutsch</Dropdown.Item>
-            <Dropdown.Item>English</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
-      </Nav> */}
-    </div>
+    /* </div> */
   );
 };
 
