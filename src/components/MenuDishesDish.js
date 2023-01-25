@@ -1,5 +1,6 @@
 import Modal from "react-bootstrap/Modal";
 import React from "react";
+import { Row, Col } from "react-bootstrap";
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -22,9 +23,7 @@ function MyVerticallyCenteredModal(props) {
         ></img>
         {props.description}
       </Modal.Body>
-      <Modal.Footer>
-        {props.price}€
-      </Modal.Footer>
+      <Modal.Footer>{props.price}€</Modal.Footer>
     </Modal>
   );
 }
@@ -34,9 +33,14 @@ function Dish({ title, image, description, price }) {
 
   return (
     <>
-      <p className="dish" onClick={() => setModalShow(true)}>
-        {title} {price}€
-      </p>
+      <Row>
+        <Col xs={10} md={10} className="dish" onClick={() => setModalShow(true)}>
+          {title}
+        </Col>
+        <Col>
+          {price}€
+        </Col>
+      </Row>
 
       <MyVerticallyCenteredModal
         show={modalShow}
