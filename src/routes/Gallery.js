@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import ScrollUp from "..";
 import GalleryPic from "../components/GalleryPic";
 import one from "../images/galleryImages/1.jpeg";
