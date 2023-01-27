@@ -12,11 +12,11 @@ const About = () => {
   return (
     <>
       <Header />
-      <br></br>
+      <br className="d-none d-md-block" ></br>
       <br></br>
       <Container fluid>
         <Row>
-          <Col md={6} className="ps-5 text-center about">
+          <Col md={6}  className="ps-md-5 text-center about">
             <AboutText />
           </Col>
           <Col md={6}>
@@ -24,6 +24,7 @@ const About = () => {
           </Col>
         </Row>
       </Container>
+      <br></br>
     </>
   );
 };

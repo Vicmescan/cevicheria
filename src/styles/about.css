@@ -1,7 +1,3 @@
-.aboutPic-subtitle {
-  font-size: 0.7rem;
-}
-
 div.about > * {
     color: var(--main-background-color) !important;
 }
@@ -11,6 +7,18 @@ div.about > * {
   text-decoration: none !important;
 }
 
+.about-link:hover {
+    text-decoration: underline !important;
+}
+
 .about-icons {
   color: var(--main-background-color) !important;
 }
+
+.about-icons:hover {
+  color: var(--main-text-color) !important;
+}
+
+.aboutPic-subtitle {
+    font-size: 0.7rem;
+  }
