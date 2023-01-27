@@ -12,22 +12,22 @@
     z-index:-3 
 }
 
-.gallery-container {
-    padding: 2rem;
-    text-align: center;
-    margin: auto;
-}
-
 .gallery-container-card {
+    background-color: var(--main-text-color) !important;
+    color: var(--main-background-color) !important;
+    text-align: center;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 3rem;
 }
 
 .gallery-container-card:hover{
     cursor: pointer;
+    background-color: var(--main-background-color) !important;
+    color: var(--main-text-color) !important;
 }
 
 .gallery-container-card-pic {
-    width: 100%;
+    margin-top: 1rem;
     height: 14rem;
     object-fit: cover;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Container, Row, Col, Stack } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ScrollUp from "..";
 import GalleryPic from "../components/GalleryPic";
 import one from "../images/galleryImages/1.jpeg";
@@ -13,60 +13,28 @@ import six from "../images/galleryImages/6.jpg";
 import "../styles/gallery.css";
 
 const Gallery = () => {
-
   ScrollUp();
 
   return (
     <>
       <Header />
       <div className="gallery-background"></div>
+      <br></br>
       <Container>
-        <Stack className="gallery-container" gap={5}>
-          <Row>
-            <Col>
-              <GalleryPic title="Típica Foto" image={one} />
-            </Col>
-            <Col>
-              <GalleryPic title="Típica Foto" image={two} />
-            </Col>
-            <Col>
-              <GalleryPic title="Típica Foto" image={three} />
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <GalleryPic title="Típica Foto" image={four} />
-            </Col>
-            <Col>
-              <GalleryPic title="Típica Foto" image={five} />
-            </Col>
-            <Col>
-              <GalleryPic title="Típica Foto" image={six} />
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <GalleryPic title="Típica Foto" image={three} />
-            </Col>
-            <Col>
-              <GalleryPic title="Típica Foto" image={two} />
-            </Col>
-            <Col>
-              <GalleryPic title="Típica Foto" image={one} />
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <GalleryPic title="Típica Foto" image={six} />
-            </Col>
-            <Col>
-              <GalleryPic title="Típica Foto" image={five} />
-            </Col>
-            <Col>
-              <GalleryPic title="Típica Foto" image={four} />
-            </Col>
-          </Row>
-        </Stack>
+        <Row className="justify-content-around">
+          <GalleryPic title="Típica Foto" image={one} />
+          <GalleryPic title="Típica Foto" image={two} />
+          <GalleryPic title="Típica Foto" image={three} />
+          <GalleryPic title="Típica Foto" image={four} />
+          <GalleryPic title="Típica Foto" image={five} />
+          <GalleryPic title="Típica Foto" image={six} />
+          <GalleryPic title="Típica Foto" image={three} />
+          <GalleryPic title="Típica Foto" image={two} />
+          <GalleryPic title="Típica Foto" image={one} />
+          <GalleryPic title="Típica Foto" image={six} />
+          <GalleryPic title="Típica Foto" image={five} />
+          <GalleryPic title="Típica Foto" image={four} />
+        </Row>
       </Container>
       <br></br>
       <Footer />

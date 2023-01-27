@@ -32,7 +32,7 @@ function GalleryPic({ title, image }) {
 
   return (
     <>
-      <Card className="gallery-container-card" style={{ width: "18rem", height: "18rem" }} onClick={() => setModalShow(true)}>
+      <Card bg="var(--main-background-color)" className="gallery-container-card" style={{ width: "20rem", height: "19rem" }} onClick={() => setModalShow(true)}>
         <Card.Img className="gallery-container-card-pic" variant="top" src={image} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
