@@ -1,0 +1,16 @@
+.aboutPic-subtitle {
+  font-size: 0.7rem;
+}
+
+div.about > * {
+    color: var(--main-background-color) !important;
+}
+
+.about-link {
+  color: var(--main-background-color) !important;
+  text-decoration: none !important;
+}
+
+.about-icons {
+  color: var(--main-background-color) !important;
+}

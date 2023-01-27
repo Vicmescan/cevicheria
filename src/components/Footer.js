@@ -1,8 +1,10 @@
 import { Navbar, Row, Col, Container } from "react-bootstrap";
 import { IconContext } from "react-icons";
-import { BsFacebook } from "react-icons/bs";
+import { BsFacebook, BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
+
 
 function Footer() {
   return (
@@ -21,14 +23,14 @@ function Footer() {
             </a>
           </p>
           <p>10999 Berlin</p>
-          <p>Tel: 030-55624038</p>
+          <p><BsFillTelephoneFill /> 030-55624038</p>
           <p className="footer-link">
             <a
               href={"mailto: info@cevicheria-berlin.com"}
               target="_blank"
               rel="noreferrer"
             >
-              info@cevicheria-berlin.com{" "}
+              <GrMail /> info@cevicheria-berlin.com{" "}
             </a>
           </p>
         </Col>
