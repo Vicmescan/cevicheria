@@ -45,6 +45,18 @@ code {
   transform: scale(1.4);
 }
 
+.nav-dropdown {
+  background-color: var(--main-background-color) !important;
+}
+
+.nav-dropdown-item {
+  color: var(--main-text-color) !important;
+}
+
+.nav-dropdown-item:hover {
+  color: var(--main-background-color) !important;
+}
+
 /* Footer */
 
 .footer {

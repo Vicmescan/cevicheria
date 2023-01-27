@@ -10,7 +10,7 @@ function HomeCarousel() {
       <Carousel.Item>
         <img
           className="carouselPics d-block"
-          src={header1} alt="First slide"
+          src={header2} alt="First slide"
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -20,7 +20,7 @@ function HomeCarousel() {
       <Carousel.Item>
         <img
           className="carouselPics d-block"
-          src={header2}
+          src={header3}
           alt="Second slide"
         />
 
@@ -32,7 +32,7 @@ function HomeCarousel() {
       <Carousel.Item>
         <img
           className="carouselPics d-block"
-          src={header3}
+          src={header1}
           alt="Third slide"
         />
 
