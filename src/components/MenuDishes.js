@@ -7,8 +7,8 @@ import lentejasCamote from "../images/menuImages/dishesImages/lentejasCamote.jpe
 import tataki from "../images/menuImages/dishesImages/tataki.jpeg";
 import lecheTigre from "../images/menuImages/dishesImages/lecheTigre.jpeg";
 import locro from "../images/menuImages/dishesImages/locro.jpeg";
-import sopaPescao from "../images/menuImages/dishesImages/sopaPescao.jpeg";
-import pulpo from "../images/menuImages/dishesImages/pulpo.jpeg";
+import sopaPescao from "../images/menuImages/dishesImages/sopaPescao.jpg";
+import pulpo from "../images/menuImages/dishesImages/pulpo.jpg";
 import cevi1 from "../images/menuImages/dishesImages/cevi1.jpeg";
 import cevi2 from "../images/menuImages/dishesImages/cevi2.jpeg";
 import cevi3 from "../images/menuImages/dishesImages/cevi3.jpeg";
@@ -19,7 +19,7 @@ export default function MenuDishes() {
   return (
     <Container className="menu-container">
       <Row>
-        <Col md>
+        <Col md gap={3} >
           <h3>Entrantes</h3>
           <MenuDishesDish
             title={"Papas a la Huancaina"}

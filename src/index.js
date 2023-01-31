@@ -17,6 +17,7 @@ export default function ScrollUp() {
   }, []);
 };
 
+
 const router = createBrowserRouter([
   {
     path: "/",
