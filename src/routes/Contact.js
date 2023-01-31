@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import ContactText from "../components/ContactText";
 import ContactPic from "../components/ContactPic";
 import { Row, Col, Container } from "react-bootstrap";
-import "../styles/about.css";
+import "../styles/contact.css";
 
 const Contact = () => {
   ScrollUp();

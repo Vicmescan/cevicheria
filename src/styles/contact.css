@@ -16,7 +16,8 @@ div.about > * {
 }
 
 .about-icons:hover {
-  color: var(--main-text-color) !important;
+  transition: transform 0.5s;
+  transform: scale(1.4);
 }
 
 .aboutPic-subtitle {
