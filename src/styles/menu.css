@@ -31,14 +31,3 @@
 .price {
     text-align: end;
 }
-
-.dish:hover {
-    cursor: pointer;
-    color: var(--main-background-color);
-}
-
-.modal-dish-pic {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
