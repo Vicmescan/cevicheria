@@ -3,8 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home";
 import Menu from "./routes/Menu";
-import Gallery from "./routes/Gallery";
-import About from "./routes/About";
+import Contact from "./routes/Contact";
 import ErrorPage from "./routes/error-page";
 import "./styles/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -30,13 +29,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/gallery",
-    element: <Gallery />,
-    errorElement: <ErrorPage />,
-  },
-  {
     path: "about",
-    element: <About />,
+    element: <Contact />,
     errorElement: <ErrorPage />,
   },
 ]);

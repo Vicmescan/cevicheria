@@ -7,10 +7,10 @@ import { GrMail } from "react-icons/gr";
 import { Container } from "react-bootstrap";
 import "../styles/about.css";
 
-const AboutText = () => {
+const ContactText = () => {
   return (
     <>
-      <h1 className="fst-italic mb-3">Sobre Nosotros</h1>
+      <h1 className="fst-italic mb-3">Contactos</h1>
       <p>
         <a
           className="about-link"
@@ -18,7 +18,7 @@ const AboutText = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <FaMapMarkerAlt /> Dresdenner Straße 120, 10999 Berlin
+          <FaMapMarkerAlt /> Dresdener Straße 120, 10999 Berlin
         </a>
       </p>
       <p>
@@ -80,4 +80,4 @@ const AboutText = () => {
   );
 };
 
-export default AboutText;
+export default ContactText;

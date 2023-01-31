@@ -1,12 +1,12 @@
 import React from "react";
 import ScrollUp from "..";
 import Header from "../components/Header";
-import AboutText from "../components/AboutText";
-import AboutPic from "../components/AboutPic";
+import ContactText from "../components/ContactText";
+import ContactPic from "../components/ContactPic";
 import { Row, Col, Container } from "react-bootstrap";
 import "../styles/about.css";
 
-const About = () => {
+const Contact = () => {
   ScrollUp();
 
   return (
@@ -17,10 +17,10 @@ const About = () => {
       <Container fluid>
         <Row>
           <Col md={6}  className="ps-md-5 text-center about">
-            <AboutText />
+            <ContactText />
           </Col>
           <Col md={6}>
-            <AboutPic />
+            <ContactPic />
           </Col>
         </Row>
       </Container>
@@ -29,4 +29,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;

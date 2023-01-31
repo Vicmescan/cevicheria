@@ -18,7 +18,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaMapMarkerAlt /> Dresdenner Straße 120{" "}
+              <FaMapMarkerAlt /> Dresdener Straße 120{" "}
             </a>
           </p>
           <p>10999 Berlin</p>

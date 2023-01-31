@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import { Dropdown, NavItem, NavLink, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { IoLanguage } from "react-icons/io5";
+import { MdLanguage } from "react-icons/md";
 import logo from "../images/cevdarkfinal.png";
 import "../styles/home.css";
 
@@ -31,19 +31,19 @@ const Header = () => {
                 Menú
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link className="nav-link" as={Link} to="/gallery">
                 Galería
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
             <Nav.Item>
               <Nav.Link className="nav-link" as={Link} to="/about">
-                Nosotros
+                Contacto
               </Nav.Link>
             </Nav.Item>
             <Dropdown className="me-4" as={NavItem} >
               <Dropdown.Toggle as={NavLink}>
-                <IoLanguage />
+                <MdLanguage />
               </Dropdown.Toggle>
               <Dropdown.Menu className="nav-dropdown" >
                 <Dropdown.Item className="nav-dropdown-item" >Español</Dropdown.Item>

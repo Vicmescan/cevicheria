@@ -19,7 +19,7 @@ export default function MenuDishes() {
   return (
     <Container className="menu-container">
       <Row>
-        <Col md gap={3} >
+        <Col md>
           <h3>Entrantes</h3>
           <MenuDishesDish
             title={"Papas a la Huancaina"}

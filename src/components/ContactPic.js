@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import aboutPic from "../images/dresdener.jpg";
 
-function AboutPic() {
+function ContactPic() {
   return (
     <Card className="border-0">
       <Card.Img src={aboutPic} alt="Dresdenerstrasse Picture" />
@@ -13,4 +13,4 @@ function AboutPic() {
   );
 }
 
-export default AboutPic;
+export default ContactPic;
