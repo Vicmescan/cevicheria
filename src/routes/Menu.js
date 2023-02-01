@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Header from "../components/Header";
 import MenuDishes from "../components/MenuDishes";
 import MenuDrinks from "../components/MenuDrinks";
@@ -10,16 +11,18 @@ export default function Menu() {
 
   ScrollUp();
 
+  const { t } = useTranslation();
+
   return (
     <>
       <Header />
       <div className="menu-background"></div>
       <br></br>
-      <h1 className="menu-titles">Menú</h1>
+      <h2 className="menu-titles">{t("menu_title")}</h2>
       <MenuDishes />
       <hr></hr>
       <br></br>
-      <h1 className="menu-titles">Bebidas</h1>
+      <h2 className="menu-titles"> {t("drink_title")} </h2>
       <MenuDrinks />
       <br></br>
       <Footer />
