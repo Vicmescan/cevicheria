@@ -48,7 +48,7 @@ export const en = {
   bottle: "bottle",
   juices: "Apple/Orange/Ananas/Rhubarb/Juice Spritzer",
   gas: "Sparkling or still water",
-  tee: "various sorts of tea",
+  tee: "Various sorts of tea",
 
   additives: "Additives",
   caffeine: "Caffeine",

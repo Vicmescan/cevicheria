@@ -88,7 +88,7 @@ const MenuDrinks = () => {
             price="3.50"
           />
           <MenuDrinksDrink
-            title="Manzana/Naranja/Piña/Ruibarbo/Soda"
+            title={t("juices")}
             size="0.33"
             price="3.50"
           />
@@ -108,7 +108,7 @@ const MenuDrinks = () => {
           />
           <MenuDrinksDrink title="Cortado" additives="1" price="2" />
           <MenuDrinksDrink title="Descafeinado" price="2" />
-          <MenuDrinksDrink title="Diversos tés" price="2" />
+          <MenuDrinksDrink title={t("tee")} price="2" />
           <hr></hr>
           <h3> {t("cocktails")} </h3>
           <br></br>

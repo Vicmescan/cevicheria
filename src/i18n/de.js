@@ -12,7 +12,7 @@ export const de = {
   sunday: "Sonntags geschlossen",
   follow_us: "Folge uns",
   // menu page
-  menu_title: "SPESIEKARTE",
+  menu_title: "SPEISEKARTE",
   starters: "VORSPEISEN",
   papas: "Kartoofeln mit Huancaina-Sauce (Vegetarisch)",
   lentejas:
@@ -47,9 +47,9 @@ export const de = {
   cocktails: "PISCO-COCKTAILS",
 
   bottle: "Flasche",
-  juices: "Apfel/Orange/Ananas/Rhabarber/Saft-Shorle",
+  juices: "Apfel/Orange/Ananas/Rhabarber/Saft Shorle",
   gas: "laut oder leise Wasser",
-  tee: "verschiedene Teesorten",
+  tee: "Verschiedene Teesorten",
 
   additives: "Zusatzstoffe",
   caffeine: "Koffein",
