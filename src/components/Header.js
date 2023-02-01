@@ -8,10 +8,9 @@ import logo from "../images/cevdarkfinal.png";
 import "../styles/home.css";
 
 const Header = () => {
+  const forceUpdate = React.useState({})[1].bind(null, {}); // forceUpdate to render again after language change avoiding problems and the need to refresh the page
 
-  const forceUpdate = React.useState({})[1].bind(null, {}) // forceUpdate to render again after language change
-
-
+  // function to change the language
   function changeLanguage(lang) {
     i18n.changeLanguage(`${lang}`);
     forceUpdate();
@@ -41,19 +40,28 @@ const Header = () => {
                 {i18n.t("contact")}
               </Nav.Link>
             </Nav.Item>
-            <Dropdown className="me-4" as={NavItem}>
+            <Dropdown className="me-4 d-inline-block " as={NavItem}>
               <Dropdown.Toggle as={NavLink}>
                 <MdLanguage />
               </Dropdown.Toggle>
-              <Dropdown.Menu className="nav-dropdown">
-                <Dropdown.Item>
-                  <a href="/de/" className="nav-dropdown-item" onClick={() => changeLanguage("de")}>Deutsch</a>
+              <Dropdown.Menu className="nav-dropdown w-100">
+                <Dropdown.Item
+                  className="nav-dropdown-item"
+                  onClick={() => changeLanguage("de")}
+                >
+                  Deutsch
                 </Dropdown.Item>
-                <Dropdown.Item>
-                  <a href="/es/" className="nav-dropdown-item" onClick={() => changeLanguage("es")}>Español</a>
+                <Dropdown.Item
+                  className="nav-dropdown-item"
+                  onClick={() => changeLanguage("es")}
+                >
+                  Español
                 </Dropdown.Item>
-                <Dropdown.Item>
-                  <a href="/en/" className="nav-dropdown-item" onClick={() => changeLanguage("en")}>English</a>
+                <Dropdown.Item
+                  className="nav-dropdown-item"
+                  onClick={() => changeLanguage("en")}
+                >
+                  English
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>

@@ -1,86 +1,39 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Row, Col, Container } from "react-bootstrap";
 import MenuDishesDish from "./MenuDishesDish";
 import "../styles/menu.css";
 
 export default function MenuDishes() {
+  const { t } = useTranslation();
+
   return (
     <Container className="menu-container">
       <Row>
         <Col md>
-          <h3>Entrantes</h3>
-          <MenuDishesDish
-            title={"Papas a la Huancaina"}
-            price={7}
-          />
-          <MenuDishesDish
-            title={
-              "Ensalada de lentejas con higos, vinagreta y crema de camotes"
-            }
-            price={12}
-          />
-          <MenuDishesDish
-            title={
-              "Tataki de atún con papas Grilladas, cebolla encurtida, y crema de ajipanca"
-            }
-            price={14}
-          />
-          <MenuDishesDish
-            title={"Leche de tigre con pescado y marisco"}
-            price={12}
-          />
-
+          <h3>{t("starters")}</h3>
+          <MenuDishesDish title={t("papas")} price={7} />
+          <MenuDishesDish title={t("lentejas")} price={12} />
+          <MenuDishesDish title={t("tataki")} price={14} />
+          <MenuDishesDish title={t("tigre")} price={12} />
           <hr></hr>
-          <h3>Platos calientes</h3>
-          <MenuDishesDish
-            title={"Locro de zapallo con semillas de calabaza"}
-            price={7}
-          />
-          <MenuDishesDish
-            title={"Sopa de pescado y mariscos"}
-            price={12}
-          />
-          <MenuDishesDish
-            title={"Pulpo grillado con puré de apionabo, setas y espinaca"}
-            price={23}
-          />
+          <h3>{t("hot_dishes")} </h3>
+          <MenuDishesDish title={t("locro")} price={7} />
+          <MenuDishesDish title={t("sopa")} price={12} />
+          <MenuDishesDish title={t("pulpo")} price={23} />
         </Col>
         <hr className="d-md-none"></hr>
         <Col md>
-          <h3>Ceviches</h3>
-          <p>( Cada pedido viene acompañado de Canchitas )</p>
-          <MenuDishesDish
-            title={"Ceviche Vegano ( Con verduras y frutas de temporada)"}
-            price={13}
-          />
-          <MenuDishesDish
-            title={"Ceviche de Pescado"}
-            price={15}
-          />
-          <MenuDishesDish
-            title={"Ceviche Mixto ( Con pescado, camarón y calamar) "}
-            price={17}
-          />
-          <MenuDishesDish
-            title={"Ceviche de Pulpo y pescado"}
-            price={19}
-          />
-          <MenuDishesDish
-            title={"Ceviche Nikkei de atún y algas nori"}
-            price={19}
-          />
+          <h3>CEVICHES</h3>
+          <MenuDishesDish title={t("cevi_vegano")} price={13} />
+          <MenuDishesDish title={t("cevi_pescado")} price={15} />
+          <MenuDishesDish title={t("cevi_mixto")} price={17} />
+          <MenuDishesDish title={t("cevi_pulpo")} price={19} />
+          <MenuDishesDish title={t("cevi_nikkei")} price={19} />
           <hr></hr>
-          <h3>Postres</h3>
-          <MenuDishesDish
-            title={"Suspiro a la limeña ( crema de toffee con merengue )"}
-            price={6}
-          />
-          <MenuDishesDish
-            title={
-              "Sueño de maracuyá ( crema de marcuyá, crumble y merengue ) "
-            }
-            price={7}
-          />
+          <h3>{t("desserts")}</h3>
+          <MenuDishesDish title={t("suspiro")} price={6} />
+          <MenuDishesDish title={t("sueño")} price={7} />
         </Col>
       </Row>
     </Container>

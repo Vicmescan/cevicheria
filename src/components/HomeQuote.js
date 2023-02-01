@@ -8,7 +8,7 @@ const HomeQuote = () => {
 
   return (
     <Container className="homeQuote d-none d-lg-block d-xl-block text-center ">
-      <p className="fst-italic mb-3"> {t("home_quote")} </p>
+      {t("home_quote")}
     </Container>
   );
 };
