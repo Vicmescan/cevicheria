@@ -1,3 +1,5 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
 import { Navbar, Row, Col, Container } from "react-bootstrap";
 import { IconContext } from "react-icons";
 import { BsFacebook, BsFillTelephoneFill } from "react-icons/bs";
@@ -6,11 +8,14 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
 function Footer() {
+
+  const { t } = useTranslation();
+
   return (
     <Navbar className="footer">
       <Row className="row-container d-flex justify-content-around text-center">
         <Col sm lg="3">
-          <h5>CONTACTO</h5>
+          <h4>{t("contact")}</h4>
           <hr></hr>
           <p className="footer-link">
             <a
@@ -38,10 +43,10 @@ function Footer() {
           </p>
         </Col>
         <Col sm lg="3">
-          <h5>HORARIO</h5>
+          <h4>{ t("timetable") }</h4>
           <hr></hr>
-          <p>Lunes a Sábados: a partir de las 18h</p>
-          <p>Domingos Cerrados</p>
+          <p>{t("from_monday")}</p>
+          <p>{t("sunday")}</p>
           <Container className="d-flex justify-content-around">
             <a
               className="footer-link"

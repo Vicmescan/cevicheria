@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { IconContext } from "react-icons";
 import { BsFacebook, BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
@@ -8,9 +9,12 @@ import { Container } from "react-bootstrap";
 import "../styles/contact.css";
 
 const ContactText = () => {
+
+  const { t } = useTranslation();
+
   return (
     <>
-      <h1 className="fst-italic mb-3">Contactos</h1>
+      <h1 className="fst-italic mb-3"> {t("contact")} </h1>
       <p>
         <a
           className="about-link"
@@ -37,12 +41,12 @@ const ContactText = () => {
         </a>
       </p>
       <br></br>
-      <h5>HORARIO</h5>
+      <h4>{t("timetable")}</h4>
       <hr></hr>
-      <p>Lunes a Sábados: a partir de las 18h</p>
-      <p>Domingos Cerrados</p>
+      <p>{t("from_monday")}</p>
+      <p>{t("sunday")}</p>
       <br></br>
-      <h5>SÍGUENOS</h5>
+      <h4>{t("follow_us")}</h4>
       <hr></hr>
       <Container className="d-flex justify-content-around">
         <a

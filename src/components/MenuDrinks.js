@@ -2,10 +2,7 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import MenuDrinksWine from "./MenuDrinksWine";
 import MenuDrinksDrink from "./MenuDrinksDrink";
-import estrella from "../images/menuImages/drinksImages/estrella.jpg";
-import rothaus from "../images/menuImages/drinksImages/rothaus.png";
-import lammsbräu from "../images/menuImages/drinksImages/lammsbräu.jpg";
-import eichhofener from "../images/menuImages/drinksImages/eichhofener.jpg";
+
 
 const MenuDrinks = () => {
   return (
@@ -62,25 +59,21 @@ const MenuDrinks = () => {
           <br></br>
           <MenuDrinksDrink
             title="Estrella Damm"
-            image={estrella}
             size="0.33cl"
             price="3.50"
           />
           <MenuDrinksDrink
             title="Rothaus Tannenzäpfle"
-            image={rothaus}
             size="0.33cl"
             price="3.50"
           />
           <MenuDrinksDrink
             title="Lammsbräu sin alcohol"
-            image={lammsbräu}
             size="0.33cl"
             price="3.50"
           />
           <MenuDrinksDrink
             title="Eichhofener Helles"
-            image={eichhofener}
             size="0.50cl"
             price="4.50"
           />

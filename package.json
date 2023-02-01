@@ -1,6 +1,6 @@
 {
   "name": "cevicheria",
-  "homepage": "https://vicmescan.github.io/cevicheria",
+  "homepage": "https://vicmescan.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,11 +8,14 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
+    "i18next": "^22.4.9",
+    "i18next-browser-languagedetector": "^7.0.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.4",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
@@ -21,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
