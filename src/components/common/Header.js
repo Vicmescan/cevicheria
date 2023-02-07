@@ -1,11 +1,11 @@
 import React from "react";
-import i18n from "../i18n";
+import i18n from "../../i18n";
 import Nav from "react-bootstrap/Nav";
 import { Dropdown, NavItem, NavLink, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { MdLanguage } from "react-icons/md";
-import logo from "../images/cevdarkfinal.png";
-import "../styles/home.css";
+import logo from "../../images/cevdarkfinal.png";
+import "../../styles/home.css";
 
 const Header = () => {
   const forceUpdate = React.useState({})[1].bind(null, {}); // forceUpdate to render again after language change avoiding problems and the need to refresh the page

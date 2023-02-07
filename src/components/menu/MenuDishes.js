@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Row, Col, Container } from "react-bootstrap";
 import MenuDishesDish from "./MenuDishesDish";
-import "../styles/menu.css";
+import "../../styles/menu.css";
 
 export default function MenuDishes() {
   const { t } = useTranslation();

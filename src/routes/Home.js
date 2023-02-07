@@ -1,7 +1,7 @@
-import Header from "../components/Header";
-import HomeCarousel from "../components/HomeCarousel";
-import Footer from "../components/Footer";
-import HomeQuote from "../components/HomeQuote";
+import Header from "../components/common/Header";
+import HomeCarousel from "../components/home/HomeCarousel";
+import Footer from "../components/common/Footer";
+import HomeQuote from "../components/home/HomeQuote";
 import ScrollUp from "..";
 
 export default function Root() {
