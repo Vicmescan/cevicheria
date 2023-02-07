@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import aboutPic from "../images/dresdener.jpg";
+import aboutPic from "../../images/dresdener.jpg";
 
 function ContactPic() {
   return (

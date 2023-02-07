@@ -6,7 +6,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { Container } from "react-bootstrap";
-import "../styles/contact.css";
+import "../../styles/contact.css";
 
 const ContactText = () => {
 

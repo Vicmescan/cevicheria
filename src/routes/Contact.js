@@ -1,8 +1,8 @@
 import React from "react";
 import ScrollUp from "..";
-import Header from "../components/Header";
-import ContactText from "../components/ContactText";
-import ContactPic from "../components/ContactPic";
+import Header from "../components/common/Header";
+import ContactText from "../components/contact/ContactText";
+import ContactPic from "../components/contact/ContactPic";
 import { Row, Col, Container } from "react-bootstrap";
 import "../styles/contact.css";
 

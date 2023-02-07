@@ -1,9 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Header from "../components/Header";
-import MenuDishes from "../components/MenuDishes";
-import MenuDrinks from "../components/MenuDrinks";
-import Footer from "../components/Footer";
+import Header from "../components/common/Header";
+import MenuDishes from "../components/menu/MenuDishes";
+import MenuDrinks from "../components/menu/MenuDrinks";
+import Footer from "../components/common/Footer";
 import "../styles/menu.css";
 import ScrollUp from "..";
 
