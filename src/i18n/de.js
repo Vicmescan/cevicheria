@@ -5,7 +5,7 @@ export const de = {
   contact: "Kontakt",
   // home
   home_quote:
-    "Das Essen ist die Nahrung der Seele, und das, das mit Liebe zubereitet wird, ist das, das am meisten nährt",
+    'Seit Herbst 2013 bieten wir Dir, neben anderen interessanten Gerichten, das klassische peruanische Ceviche in unserem kleinen, entspannten Restaurant, gelegen zwischen Oranienplatz und Kottbusser Tor, im Herzen von Kreuzberg.\n Mit viel Liebe zum Detail nehmen wir Dich mit auf eine unverwechselbare Geschmacksreise durch die Vielfalt der peruanischen Küche.\n "Die wahre Seele einer Kultur, einer Nation, entdeckt man wirklich mit Messer und Gabel. -Juanjo Baulio-"',
   // footer and contact
   timetable: "Öffnungszeiten",
   from_monday: "Von Montag bis Samstag: ab 18 Uhr",

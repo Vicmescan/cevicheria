@@ -5,7 +5,7 @@ export const en = {
   contact: "Contact",
   // home
   home_quote:
-    "The food is the most important thing in the world, so imagine how important is for us to share it with you.",
+    'Since autumn 2013, La Cevicheria offers you, among many other interesting options, ceviche in a familiar Peruvian atmosphere in our small restaurant between Oranienplatz and Kottbusser Tor, in the heart of Kreuzberg.\n With attention to detail and Peruvian identity we will take you on a journey of flavours through the incomparable variety of this unique cuisine.\n "The true soul of a culture, of a nation, is truly discovered with knife and fork. -Juanjo Baulio-"',
   // footer and contact
   timetable: "Timetable",
   from_monday: "From Monday to Saturday: from 18h",

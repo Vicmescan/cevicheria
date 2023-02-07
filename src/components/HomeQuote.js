@@ -3,13 +3,21 @@ import { useTranslation } from "react-i18next";
 import Container from "react-bootstrap/Container";
 
 const HomeQuote = () => {
-
   const { t } = useTranslation();
 
+  const items = t("home_quote").split("\n");
+
   return (
-    <Container className="homeQuote d-none d-lg-block d-xl-block text-center ">
-      {t("home_quote")}
-    </Container>
+    <>
+      <div className="homeQuote-background"></div>
+      <Container className="homeQuote text-center ">
+        <div>
+          {items.map((item) => (
+            <p>{item}</p>
+          ))}
+        </div>
+      </Container>
+    </>
   );
 };
 

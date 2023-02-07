@@ -86,9 +86,15 @@ function Footer() {
         <hr></hr>
       </Navbar>
       <Navbar className="footer row-container d-flex justify-content-around text-center">
-        <p>&#169;Cevichería 2023, Alle Rechte vorbehalten</p>
-        <Datenshutz />
-        <Impressum />
+        <Row  className="row-container d-flex justify-content-around text-center">
+          <Col className="d-sm-flex justify-content-around text-center" >
+            <Datenshutz />
+            <Impressum />
+          </Col >
+          <Col>
+            <p>&#169;Cevichería 2023, Alle Rechte vorbehalten</p>
+          </Col>
+        </Row>
       </Navbar>
     </>
   );

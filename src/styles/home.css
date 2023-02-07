@@ -7,12 +7,30 @@
 .carouselPics {
   margin: auto;
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   object-fit: cover;
   position: static;
 }
 
+.homeQuote-background {
+  background-image: url("../images/willian-justen-de-vasconcello-machuPichu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  position: sticky;
+  top:0;
+}
+
 .homeQuote {
+  height: 100vh;
+  width: 100vw;
+  background:sticky;
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--main-background-color);
