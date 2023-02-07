@@ -5,10 +5,10 @@ export const es = {
   contact: "Contacto",
   // home
   home_quote:
-    "La comida es el alimento del alma, y la que se prepara con amor es la que más nutre",
+    "“La verdadera alma de una cultura, de una nación, se descubre de verdad con cuchillo y tenedor. -Juanjo Baulio-”",
   // footer and contact
   timetable: "Horario",
-  from_monday: "De lunes a viernes: a partir de las 18h",
+  from_monday: "De lunes a Sabado: a partir de las 18h",
   sunday: "Domingos Cerrados",
   follow_us: "Síguenos",
   // menu page

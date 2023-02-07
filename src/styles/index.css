@@ -78,6 +78,7 @@ code {
   color: var(--main-text-color) !important;
   transition: transform 0.5s;
   transform: scale(1.2);
+  cursor: pointer;
 }
 
 .footer-link a:hover {

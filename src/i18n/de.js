@@ -8,7 +8,7 @@ export const de = {
     "Das Essen ist die Nahrung der Seele, und das, das mit Liebe zubereitet wird, ist das, das am meisten nährt",
   // footer and contact
   timetable: "Öffnungszeiten",
-  from_monday: "Von Montag bis Freitag: ab 18 Uhr",
+  from_monday: "Von Montag bis Samstag: ab 18 Uhr",
   sunday: "Sonntags geschlossen",
   follow_us: "Folge uns",
   // menu page

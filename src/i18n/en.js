@@ -8,7 +8,7 @@ export const en = {
     "The food is the most important thing in the world, so imagine how important is for us to share it with you.",
   // footer and contact
   timetable: "Timetable",
-  from_monday: "From Monday to Friday: from 18h",
+  from_monday: "From Monday to Saturday: from 18h",
   sunday: "Sundays Closed",
   follow_us: "Follow us",
   // menu page
