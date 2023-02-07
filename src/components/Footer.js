@@ -6,8 +6,7 @@ import { BsFacebook, BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
-import Datenshutz from "./Datenshutz";
-import Impressum from "./Impressum";
+import DatenImpresumFooter from "./DatenImpresumFooter";
 
 function Footer() {
   const { t } = useTranslation();
@@ -25,12 +24,11 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaMapMarkerAlt /> Dresdener Straße 120{" "}
+                <FaMapMarkerAlt /> Dresdener Straße 120, 10999 Berlin{" "}
               </a>
             </p>
-            <p>10999 Berlin</p>
             <p className="footer-link">
-              <a href="03055624038">
+              <a href="tel:03055624038">
                 <BsFillTelephoneFill /> 030-55624038
               </a>
             </p>
@@ -85,17 +83,7 @@ function Footer() {
         </Row>
         <hr></hr>
       </Navbar>
-      <Navbar className="footer row-container d-flex justify-content-around text-center">
-        <Row  className="row-container d-flex justify-content-around text-center">
-          <Col className="d-sm-flex justify-content-around text-center" >
-            <Datenshutz />
-            <Impressum />
-          </Col >
-          <Col>
-            <p>&#169;Cevichería 2023, Alle Rechte vorbehalten</p>
-          </Col>
-        </Row>
-      </Navbar>
+      <DatenImpresumFooter />
     </>
   );
 }

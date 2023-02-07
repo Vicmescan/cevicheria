@@ -57,6 +57,7 @@ const Impressum = () => {
           <p>
             Quelle: <a href="https://www.e-recht24.de">eRecht24</a>
           </p>
+          <p>Photo-Credits: Machu Pichu, Perú -Willian Justen de Vasconcellos- </p>
         </Modal.Body>
       </Modal>
     </>

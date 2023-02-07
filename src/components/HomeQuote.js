@@ -10,7 +10,7 @@ const HomeQuote = () => {
   return (
     <>
       <div className="homeQuote-background"></div>
-      <Container className="homeQuote text-center ">
+      <Container className="homeQuote text-center">
         <div>
           {items.map((item) => (
             <p>{item}</p>
