@@ -54,6 +54,6 @@ export const de = {
   additives: "Zusatzstoffe",
   caffeine: "Koffein",
   eggwhite: "Eiweiß",
-  colour: "Farbstoff",
+  colouring: "Farbstoff",
   sulphites: "Sulfite",
 };

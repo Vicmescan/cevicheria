@@ -5,6 +5,7 @@ import ContactText from "../components/contact/ContactText";
 import ContactPic from "../components/contact/ContactPic";
 import { Row, Col, Container } from "react-bootstrap";
 import "../styles/contact.css";
+import DatenImpresumFooter from "../components/common/DatenImpresumFooter";
 
 const Contact = () => {
   ScrollUp();
@@ -25,6 +26,7 @@ const Contact = () => {
         </Row>
       </Container>
       <br></br>
+      <DatenImpresumFooter />
     </>
   );
 };

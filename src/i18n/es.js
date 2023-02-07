@@ -53,6 +53,6 @@ export const es = {
   additives: "Aditivos",
   caffeine: "Cafeína",
   eggwhite: "Clara de huevo",
-  colour: "Colorante",
+  colouring: "Colorante",
   sulphites: "Sulfitos",
 };

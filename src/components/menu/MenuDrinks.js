@@ -124,7 +124,7 @@ const MenuDrinks = () => {
               <p>2. {t("eggwhite")} </p>
             </Col>
             <Col>
-              <p>3. {t("colour")} </p>
+              <p>3. {t("colouring")} </p>
               <p>4. {t("sulphites")} </p>
             </Col>
           </Row>

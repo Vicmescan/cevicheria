@@ -22,7 +22,7 @@ code {
 .header {
   background-color: var(--main-background-color);
   font-size: 1.3rem;
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
 }
 
 .header .logo {
@@ -64,7 +64,7 @@ code {
 .footer {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
-  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.75);
 }
 
 .row-container {

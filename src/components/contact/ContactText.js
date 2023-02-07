@@ -26,7 +26,7 @@ const ContactText = () => {
         </a>
       </p>
       <p>
-        <a className="about-link" href="03055624038">
+        <a className="about-link" href="tel:03055624038">
           <BsFillTelephoneFill /> 030-55624038
         </a>
       </p>

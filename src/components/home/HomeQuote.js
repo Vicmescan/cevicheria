@@ -12,8 +12,8 @@ const HomeQuote = () => {
       <div className="homeQuote-background"></div>
       <Container className="homeQuote text-center">
         <div>
-          {items.map((item) => (
-            <p>{item}</p>
+          {items.map((item, index) => (
+            <p key={index} >{item}</p>
           ))}
         </div>
       </Container>
