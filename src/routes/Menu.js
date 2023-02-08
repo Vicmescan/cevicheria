@@ -14,7 +14,7 @@ export default function Menu() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div className="menu" >
       <Header />
       <div className="menu-background"></div>
       <br></br>
@@ -26,6 +26,6 @@ export default function Menu() {
       <MenuDrinks />
       <br></br>
       <Footer />
-    </>
+    </div>
   );
 }
