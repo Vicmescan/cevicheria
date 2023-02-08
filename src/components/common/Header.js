@@ -8,7 +8,8 @@ import logo from "../../images/cevdarkfinal.png";
 import "../../styles/home.css";
 
 const Header = () => {
-  const forceUpdate = React.useState({})[1].bind(null, {}); // forceUpdate to render again after language change avoiding problems and the need to refresh the page
+  // forceUpdate to render again after language change avoiding problems and the need to refresh the page
+  const forceUpdate = React.useState({})[1].bind(null, {}); 
 
   // function to change the language
   function changeLanguage(lang) {
@@ -19,7 +20,7 @@ const Header = () => {
   return (
     <Navbar className="header" expand="md" sticky="top">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="justify-content-left ">
+        <Navbar.Brand as={Link} to="/home" className="justify-content-left ">
           <img className="logo" src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle />

@@ -17,6 +17,39 @@ code {
     monospace;
 }
 
+/*  LoadingPage */
+
+.loadingPage-background {
+  background-color: var(--main-background-color);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingPage-Logo {
+  width: 15rem;
+  height: 10rem;
+  -webkit-animation:spin 3s linear infinite;
+  -moz-animation:spin 3s linear infinite;
+  animation:spin 3s linear infinite;
+}
+@-moz-keyframes spin { 
+  100% { -moz-transform: rotateY(360deg); } 
+}
+@-webkit-keyframes spin { 
+  100% { -webkit-transform: rotateY(360deg); } 
+}
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotateY(360deg); 
+      transform:rotateY(360deg); 
+  } 
+}
+
 /*  Header */
 
 .header {
@@ -64,7 +97,7 @@ code {
 .footer {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
-  box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px -1px 5px rgba(0, 0, 0, 0.75);
 }
 
 .row-container {

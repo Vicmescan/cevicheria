@@ -6,6 +6,7 @@ import Menu from "./routes/Menu";
 import Contact from "./routes/Contact";
 import "./styles/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import LoadingPage from "./routes/LoadingPage";
 
 // this function is used to scroll up the page when the user clicks on a link
 export default function ScrollUp() {
@@ -17,6 +18,10 @@ export default function ScrollUp() {
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <LoadingPage />,
+  },
+  {
+    path: "/home",
     element: <Home />,
   },
   {
