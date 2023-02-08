@@ -14,7 +14,8 @@ const ContactText = () => {
 
   return (
     <>
-      <h1 className="fst-italic mb-3"> {t("contact")} </h1>
+      <h4>{t("data")}</h4>
+      <hr></hr>
       <p>
         <a
           className="about-link"

@@ -56,4 +56,22 @@ export const de = {
   eggwhite: "Eiweiß",
   colouring: "Farbstoff",
   sulphites: "Sulfite",
+
+  // contact page
+  data:"Daten",
+  write_us: "Schreibe uns",
+  contact_title: "KONTAKT",
+  name: "Name",
+  name_placeholder: "Dein Name",
+  email: "E-Mail Adresse",
+  email_placeholder: "Deine E-Mail Adresse",
+  telephone: "Telefon",
+  telephone_placeholder: "Deine Telefonnummer",
+  subject: "Betreff",
+  subject_placeholder: "Dein Betreff",
+  subject_1: "Reservierung",
+  subject_2: "Vorshlag",
+  subject_3: "Andere Anfrage",
+  message: "Nachricht",
+  submit: "Senden",
 };

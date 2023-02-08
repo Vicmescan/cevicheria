@@ -18,11 +18,11 @@ export default function Menu() {
       <Header />
       <div className="menu-background"></div>
       <br></br>
-      <h2 className="menu-titles">{t("menu_title")}</h2>
+      <h2 className="text-decoration-underline mb-5 text-center ">{t("menu_title")}</h2>
       <MenuDishes />
       <hr></hr>
       <br></br>
-      <h2 className="menu-titles"> {t("drink_title")} </h2>
+      <h2 className="text-decoration-underline mb-5 text-center "> {t("drink_title")} </h2>
       <MenuDrinks />
       <br></br>
       <Footer />

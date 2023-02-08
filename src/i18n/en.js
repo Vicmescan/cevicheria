@@ -55,4 +55,22 @@ export const en = {
   eggwhite: "Eggwhite",
   colouring: "Colouring dye",
   sulphites: "Sulphites",
+
+  // contact page
+  data: "Data",
+  write_us: "Write us",
+  contact_title: "CONTACT",
+  name: "Name",
+  name_placeholder:"Enter your name",
+  email: "Email Address",
+  email_placeholder: "Enter email",
+  telephone: "Telephone",
+  telephone_placeholder: "Enter your telephone number",
+  subject: "Subject",
+  subject_placeholder: "Reason of your message",
+  subject_1: "Reservation",
+  subject_2: "Opinion",
+  subject_3: "Other",
+  message: "Message",
+  submit: "Submit",
 };

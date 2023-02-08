@@ -55,4 +55,23 @@ export const es = {
   eggwhite: "Clara de huevo",
   colouring: "Colorante",
   sulphites: "Sulfitos",
+
+  // contact page
+  data: "Datos",
+  write_us: "Escríbenos",
+  contact_title: "CONTACTO",
+  name: "Nombre",
+  name_placeholder: "Escribe tu nombre",
+  email: "Correo electrónico",
+  email_placeholder: "Escribe tu correo electrónico",
+  telephone: "Teléfono",
+  telephone_placeholder: "Escribe tu teléfono",
+  subject: "Asunto",
+  subject_placeholder: "Razón de tu mensaje",
+  subject_1: "Reserva",
+  subject_2: "Sugerencias",
+  subject_3: "Otras preguntas",
+  message: "Mensaje",
+  submit: "Enviar",
+
 };
