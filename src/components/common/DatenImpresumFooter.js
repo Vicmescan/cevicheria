@@ -5,7 +5,7 @@ import { Navbar, Row, Col } from "react-bootstrap";
 
 const DatenImpresumFooter = () => {
   return (
-    <Navbar className="footer row-container d-flex justify-content-around text-center">
+    <Navbar className="subFooter footer row-container d-flex justify-content-around text-center">
     <Row  className="row-container d-flex justify-content-around text-center">
       <Col className="d-sm-flex justify-content-around text-center" >
         <Datenshutz />

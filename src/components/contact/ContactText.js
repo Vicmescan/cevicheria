@@ -81,6 +81,8 @@ const ContactText = () => {
           </IconContext.Provider>
         </a>
       </Container>
+        <br className="d-md-none" ></br>
+        <br className="d-md-none" ></br>
     </>
   );
 };
