@@ -14,12 +14,6 @@ const ConfirmationModal = ({ show, setShow, confirmation }) => {
     }
   };
 
-//   A ver, Vic, tengo que traducir el mensaje del modal y también ver si me interesa enviar un modal cuando no hay res del server,
-// también tema de icono e imagenes, que dan error en la consola.
-// tambien el nodemailer.
-// que por culo da el tabnine, que no me deja escribir nada, y no se como desactivarlo.
-// eso lo ha escrito él, no yo.
-
   return (
     <>
       <Modal show={show} onHide={handleClose}>
