@@ -102,9 +102,10 @@ const MenuDrinks = () => {
           <h3> {t("coffee")} </h3>
           <br></br>
           <MenuDrinksDrink
-            title="Café solo/doble"
+            title='Café solo/doble'
             additives="1"
-            price="1.50€/2.50"
+            size="1.50€/"
+            price="2.50"
           />
           <MenuDrinksDrink title="Cortado" additives="1" price="2" />
           <MenuDrinksDrink title="Descafeinado" price="2" />

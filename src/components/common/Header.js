@@ -18,9 +18,9 @@ const Header = () => {
   }
 
   return (
-    <Navbar className="header" expand="md" sticky="top">
+    <Navbar className="header fluid" expand="md" sticky="top">
       <Container>
-        <Navbar.Brand as={Link} to="/home" className="justify-content-left ">
+        <Navbar.Brand as={Link} to="/" className="justify-content-left ">
           <img className="logo" src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle />
