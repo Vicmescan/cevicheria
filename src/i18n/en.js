@@ -73,4 +73,5 @@ export const en = {
   subject_3: "Other",
   message: "Message",
   submit: "Submit",
+  confirmation_Message: "Your message has been sent",
 };

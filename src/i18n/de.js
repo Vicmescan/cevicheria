@@ -74,4 +74,5 @@ export const de = {
   subject_3: "Andere Anfrage",
   message: "Nachricht",
   submit: "Senden",
+  confirmation_Message: "Vielen Dank für deine Nachricht.",
 };

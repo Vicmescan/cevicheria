@@ -52,7 +52,6 @@ function ContactForm() {
           } else {
             setConfirmation(false);
             console.log('Message failed')
-            handleShow();
           }
         })
         .catch(err => console.log(err));

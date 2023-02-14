@@ -73,5 +73,5 @@ export const es = {
   subject_3: "Otras preguntas",
   message: "Mensaje",
   submit: "Enviar",
-
+  confirmation_Message: "Gracias por tu mensaje ha sido enviado",
 };
