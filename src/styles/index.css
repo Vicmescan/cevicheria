@@ -53,11 +53,9 @@ code {
 /*  Header */
 
 .header {
-  position: absolute;
   background-color: var(--main-background-color);
   font-size: 1.3rem;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
-  width:100% !important;
 }
 
 .header .logo {

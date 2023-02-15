@@ -104,8 +104,8 @@ const MenuDrinks = () => {
           <MenuDrinksDrink
             title='Café solo/doble'
             additives="1"
-            size="1.50€/"
-            price="2.50"
+            size="1.5€"
+            price="2.5"
           />
           <MenuDrinksDrink title="Cortado" additives="1" price="2" />
           <MenuDrinksDrink title="Descafeinado" price="2" />
