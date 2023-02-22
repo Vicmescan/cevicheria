@@ -4,15 +4,13 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import ConfirmationModal from "./ConfirmationModal";
 
-
 function ContactForm() {
-
   // translation
   const { t } = useTranslation();
 
   // state for inputs
   const [name, setName] = useState("");
-  const [mail, setMail] = useState("");
+  const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [subject, setSubject] = useState("Reservation");
   const [message, setMessage] = useState("");
@@ -25,7 +23,6 @@ function ContactForm() {
   // confirmation information is sent to the server
   const [confirmation, setConfirmation] = useState(true);
 
-
   const handleSubmit = (e) => {
     const form = e.currentTarget;
     if (form.checkValidity() === false) {
@@ -35,29 +32,28 @@ function ContactForm() {
       e.preventDefault();
       setValidated(true);
 
-      fetch('http://localhost:8080/mail', {
-        method: 'POST',
+      fetch("http://localhost:8080/mail", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
-          },
-          body: JSON.stringify( {name, mail, phone, subject, message} )
-        })
-        .then(res => res.json())
-        .then(res => {
-          console.log(res)
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, phone, subject, message }),
+      })
+        .then((res) => res.json())
+        .then((res) => {
+          console.log(res);
           if (res) {
             setConfirmation(true);
-            console.log('Message sent')
+            console.log("Message sent");
             handleShow();
           } else {
             setConfirmation(false);
-            console.log('Message failed')
+            console.log("Message failed");
           }
         })
-        .catch(err => console.log(err));
-      }
+        .catch((err) => console.log(err));
+    }
   };
-   
 
   return (
     <>
@@ -75,11 +71,11 @@ function ContactForm() {
           <Form.Label>{t("email")}*</Form.Label>
           <Form.Control
             required
-            value={mail}
+            value={email}
             type="email"
             placeholder={t("email_placeholder")}
             onChange={(e) => {
-              setMail(e.target.value);
+              setEmail(e.target.value);
             }}
           />
           <Form.Label>{t("telephone")}*</Form.Label>
@@ -119,7 +115,6 @@ function ContactForm() {
         <Button
           className="about-submit"
           variant="outline-dark"
-          type="submit"
           onClick={handleSubmit}
         >
           {t("submit")}
@@ -127,7 +122,11 @@ function ContactForm() {
       </Form>
 
       {/* modal to confirm the send of the form */}
-      <ConfirmationModal show={show} setShow={setShow} confirmation={confirmation} />
+      <ConfirmationModal
+        show={show}
+        setShow={setShow}
+        confirmation={confirmation}
+      />
     </>
   );
 }

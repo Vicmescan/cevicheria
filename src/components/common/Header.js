@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import i18n from "../../i18n";
-import Nav from "react-bootstrap/Nav";
-import { Dropdown, NavItem, NavLink, Navbar, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Dropdown, NavItem, Nav, NavLink, Navbar, Container } from "react-bootstrap";
+import { Link, useLocation } from "react-router-dom";
 import { MdLanguage } from "react-icons/md";
 import logo from "../../images/cevdarkfinal.png";
 import "../../styles/home.css";
 
 const Header = () => {
+
   // forceUpdate to render again after language change avoiding problems and the need to refresh the page
   const forceUpdate = React.useState({})[1].bind(null, {}); 
 
@@ -16,6 +16,9 @@ const Header = () => {
     i18n.changeLanguage(`${lang}`);
     forceUpdate();
   }
+
+  // get the current location to underline the current page
+  const location = useLocation();
 
   return (
     <Navbar className="header fluid" expand="md" sticky="top">
@@ -27,18 +30,18 @@ const Header = () => {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Nav.Item>
-              <Nav.Link className="nav-link" as={Link} to="/home">
-                {i18n.t("home")}
+              <Nav.Link className="nav-link" as={Link} to="/home" >
+                { location.pathname === "/home" ? <span style={{textDecoration: "underline"}}>{i18n.t("home")}</span> : i18n.t("home") }
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link className="nav-link" as={Link} to="/menu">
-                {i18n.t("menu")}
+                { location.pathname === "/menu"? <span style={{textDecoration: "underline"}}>{i18n.t("menu")}</span> : i18n.t("menu") }
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link className="nav-link" as={Link} to="/contact">
-                {i18n.t("contact")}
+                { location.pathname === "/contact"? <span style={{textDecoration: "underline"}}>{i18n.t("contact")}</span> : i18n.t("contact") }
               </Nav.Link>
             </Nav.Item>
             <Dropdown className="me-4 d-inline-block " as={NavItem}>
