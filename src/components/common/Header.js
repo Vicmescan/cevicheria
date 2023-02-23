@@ -14,6 +14,7 @@ import logo from "../../images/cevdarkfinal.png";
 import "../../styles/home.css";
 
 const Header = () => {
+
   // forceUpdate to render again after language change avoiding problems and the need to refresh the page
   const forceUpdate = React.useState({})[1].bind(null, {});
 

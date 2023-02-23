@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import logo from "../images/cevdarkfinal.png";
 
 const LoadingPage = () => {
+
   const navigate = useNavigate()
 
   setTimeout(() => {

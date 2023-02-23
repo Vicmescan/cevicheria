@@ -1,10 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
+import '../../styles/home.css';
 import header1 from '../../images/header1.png';
 import header2 from '../../images/header2.jpg';
 import header3 from '../../images/header3.jpg';
-import '../../styles/home.css';
 
 function HomeCarousel() {
+
   return (
     <Carousel fade className='carousel'>
       <Carousel.Item>
