@@ -14,12 +14,12 @@
 }
 
 .contact {
-  color: black!important;
+  color: var(--black-text-color)!important;
   min-height: 94.5vh;
 }
 
 .about-link {
-  color: black !important;
+  color: var(--black-text-color) !important;
   text-decoration: none !important;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .about-icons {
-  color: black !important;
+  color: var(--black-text-color) !important;
 }
 
 .about-icons:hover {
