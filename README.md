@@ -8,9 +8,5 @@
 
 # Preguntar
 ~~~
-- Página de Inicio:
-  - Foto del Machu Pichu bien o mal. -se quita-
-~~~
-~~~
 - Steuernummer de Peter
 ~~~
