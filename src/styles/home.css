@@ -13,7 +13,7 @@
 }
 
 .homeQuote-background {
-  background-image: url("../images/willian-justen-de-vasconcello-machuPichu.jpg");
+  background-image: url("../images/ceviBackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,5 +35,5 @@
   /* font-weight: bold; */
   color: var(--black-text-color);
   font-style: italic;
-  margin: -5rem 0 15rem 0;
+  margin: 0rem 0 0rem 0;
 }

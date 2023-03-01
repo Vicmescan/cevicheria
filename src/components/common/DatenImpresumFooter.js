@@ -12,7 +12,7 @@ const DatenImpresumFooter = () => {
         <Impressum />
       </Col >
       <Col>
-        <p>&#169;Cevichería 2023, Alle Rechte vorbehalten</p>
+        <i>Created by Vicmescan</i>
       </Col>
     </Row>
   </Navbar>

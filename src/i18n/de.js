@@ -5,7 +5,7 @@ export const de = {
   contact: "Kontakt",
   // home
   home_quote:
-    'Seit Herbst 2013 bieten wir Dir, neben anderen interessanten Gerichten, das klassische peruanische Ceviche in unserem kleinen, entspannten Restaurant, gelegen zwischen Oranienplatz und Kottbusser Tor, im Herzen von Kreuzberg.\n Mit viel Liebe zum Detail nehmen wir Dich mit auf eine unverwechselbare Geschmacksreise durch die Vielfalt der peruanischen Küche.\n "Die wahre Seele einer Kultur, einer Nation, entdeckt man wirklich mit Messer und Gabel. -Juanjo Braulio-"',
+    'Seit Herbst 2013 bieten wir Dir, neben anderen interessanten Gerichten, das klassische peruanische Ceviche in unserem kleinen, entspannten Restaurant, gelegen zwischen Oranienplatz und Kottbusser Tor, im Herzen von Kreuzberg.\n Mit viel Liebe zum Detail nehmen wir Dich mit auf eine unverwechselbare Geschmacksreise durch die Vielfalt der peruanischen Küche.',
   // footer and contact
   timetable: "Öffnungszeiten",
   from_monday: "Von Montag bis Samstag: ab 18 Uhr",
@@ -50,7 +50,7 @@ export const de = {
   juices: "Apfel/Orange/Ananas/Rhabarber/Saft Shorle",
   gas: "laut oder leise Wasser",
   tee: "Verschiedene Teesorten",
-
+  
   additives: "Zusatzstoffe",
   caffeine: "Koffein",
   eggwhite: "Eiweiß",
@@ -67,11 +67,6 @@ export const de = {
   email_placeholder: "Deine E-Mail Adresse",
   telephone: "Telefon",
   telephone_placeholder: "Deine Telefonnummer",
-  subject: "Betreff",
-  subject_placeholder: "Dein Betreff",
-  subject_1: "Reservierung",
-  subject_2: "Vorshlag",
-  subject_3: "Andere Anfrage",
   message: "Nachricht",
   submit: "Senden",
   confirmation_Message: "Vielen Dank für deine Nachricht.",

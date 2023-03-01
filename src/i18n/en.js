@@ -5,7 +5,7 @@ export const en = {
   contact: "Contact",
   // home
   home_quote:
-    'Since autumn 2013, La Cevicheria offers you, among many other interesting options, ceviche in a familiar Peruvian atmosphere in our small restaurant between Oranienplatz and Kottbusser Tor, in the heart of Kreuzberg.\n With attention to detail and Peruvian identity we will take you on a journey of flavours through the incomparable variety of this unique cuisine.\n "The true soul of a culture, of a nation, is truly discovered with knife and fork. -Juanjo Braulio-"',
+    'Since autumn 2013, La Cevicheria offers you, among many other interesting options, ceviche in a familiar Peruvian atmosphere in our small restaurant between Oranienplatz and Kottbusser Tor, in the heart of Kreuzberg.\n With attention to detail and Peruvian identity we will take you on a journey of flavours through the incomparable variety of this unique cuisine.',
   // footer and contact
   timetable: "Timetable",
   from_monday: "From Monday to Saturday: from 18h",
@@ -49,7 +49,7 @@ export const en = {
   juices: "Apple/Orange/Ananas/Rhubarb/Juice Spritzer",
   gas: "Sparkling or still water",
   tee: "Various sorts of tea",
-
+  
   additives: "Additives",
   caffeine: "Caffeine",
   eggwhite: "Eggwhite",
@@ -66,11 +66,6 @@ export const en = {
   email_placeholder: "Enter email",
   telephone: "Telephone",
   telephone_placeholder: "Enter your telephone number",
-  subject: "Subject",
-  subject_placeholder: "Reason of your message",
-  subject_1: "Reservation",
-  subject_2: "Opinion",
-  subject_3: "Other",
   message: "Message",
   submit: "Submit",
   confirmation_Message: "Your message has been sent",

@@ -12,7 +12,6 @@ function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [subject, setSubject] = useState("Reservation");
   const [message, setMessage] = useState("");
 
   // state for modal
@@ -32,12 +31,12 @@ function ContactForm() {
       e.preventDefault();
       setValidated(true);
 
-      fetch("https://localhost:8080/mail", {
+      fetch("http://localhost:8080/mail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, email, phone, subject, message }),
+        body: JSON.stringify({ name, email, phone, message }),
       })
         .then((res) => res.json())
         .then((res) => {
@@ -78,9 +77,8 @@ function ContactForm() {
               setEmail(e.target.value);
             }}
           />
-          <Form.Label>{t("telephone")}*</Form.Label>
+          <Form.Label>{t("telephone")}</Form.Label>
           <Form.Control
-            required
             value={phone}
             type="tel"
             placeholder={t("telephone_placeholder")}
@@ -88,19 +86,6 @@ function ContactForm() {
               setPhone(e.target.value);
             }}
           />
-          <Form.Label>{t("subject")}*</Form.Label>
-          <Form.Select
-            required
-            value={subject}
-            aria-label="select subject"
-            onChange={(e) => {
-              setSubject(e.target.value);
-            }}
-          >
-            <option value="Reservation"> {t("subject_1")} </option>
-            <option value="Suggestion"> {t("subject_2")} </option>
-            <option value="Other"> {t("subject_3")} </option>
-          </Form.Select>
           <Form.Label>{t("message")}*</Form.Label>
           <Form.Control
             required

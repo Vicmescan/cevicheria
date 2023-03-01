@@ -9,17 +9,8 @@
 # Preguntar
 ~~~
 - Página de Inicio:
-  - Foto del Machu Pichu bien o mal.
-  - Cita de Juanjo Braulio: si, no, otra.
+  - Foto del Machu Pichu bien o mal. -se quita-
 ~~~
 ~~~
-- Copyright sí o no
 - Steuernummer de Peter
-~~~
-~~~
-- Fondo de la página de contactos.
-- Formulario:
-  - Algún campo más o menos.
-  - obligatoriedad de los campos.
-  - Algún asunto más o menos.
 ~~~

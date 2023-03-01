@@ -5,7 +5,7 @@ export const es = {
   contact: "Contacto",
   // home
   home_quote:
-    `Desde otoño de 2013, La Cevicheria te ofrece, entre muchas otras interesantes opciones, el ceviche en un ambiente peruano y familiar en nuestro pequeño restaurante entre Oranienplatz y Kottbusser Tor, en el corazón de Kreuzberg. \n Cuidando los detalles y la identidad peruana te llevaremos en un viaje de sabores por la incomparable variedad de esta cocina única.\n“La verdadera alma de una cultura, de una nación, se descubre de verdad con cuchillo y tenedor. -Juanjo Braulio-”`,
+    `Desde otoño de 2013, La Cevicheria te ofrece, entre muchas otras interesantes opciones, el ceviche en un ambiente peruano y familiar en nuestro pequeño restaurante entre Oranienplatz y Kottbusser Tor, en el corazón de Kreuzberg. \n Cuidando los detalles y la identidad peruana te llevaremos en un viaje de sabores por la incomparable variedad de esta cocina única.`,
   // footer and contact
   timetable: "Horario",
   from_monday: "De lunes a Sabado: a partir de las 18h",
@@ -49,7 +49,7 @@ export const es = {
   juices: "Manzana/Naranja/Piña/Rábano/Soda",
   gas: "Con gas o sin gas",
   tee: "Surtido de tés",
-
+  
   additives: "Aditivos",
   caffeine: "Cafeína",
   eggwhite: "Clara de huevo",
@@ -66,11 +66,6 @@ export const es = {
   email_placeholder: "Escribe tu correo electrónico",
   telephone: "Teléfono",
   telephone_placeholder: "Escribe tu teléfono",
-  subject: "Asunto",
-  subject_placeholder: "Razón de tu mensaje",
-  subject_1: "Reserva",
-  subject_2: "Sugerencias",
-  subject_3: "Otras preguntas",
   message: "Mensaje",
   submit: "Enviar",
   confirmation_Message: "Gracias, tu mensaje ha sido enviado",
