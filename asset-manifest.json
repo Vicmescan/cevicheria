@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cevicheria/home/static/css/main.aa2dd575.css",
-    "main.js": "/cevicheria/home/static/js/main.7ee2664d.js",
-    "static/media/menuBackground.jpg": "/cevicheria/home/static/media/menuBackground.20670dfe1cd33ac5fa82.jpg",
-    "static/media/header1.png": "/cevicheria/home/static/media/header1.7c6fc59a1ad6ff5ca459.png",
-    "static/media/header2.jpg": "/cevicheria/home/static/media/header2.b179179c6e2eb02dc3b4.jpg",
-    "static/media/header3.jpg": "/cevicheria/home/static/media/header3.f4a21a9543b617e9b9b1.jpg",
-    "static/media/cevdarkfinal.png": "/cevicheria/home/static/media/cevdarkfinal.1744511172d44a74c721.png",
-    "static/media/ceviBackground.jpg": "/cevicheria/home/static/media/ceviBackground.0452e54280b453cd5499.jpg",
-    "index.html": "/cevicheria/home/index.html",
-    "main.aa2dd575.css.map": "/cevicheria/home/static/css/main.aa2dd575.css.map",
-    "main.7ee2664d.js.map": "/cevicheria/home/static/js/main.7ee2664d.js.map"
+    "main.css": "/cevicheria/static/css/main.b2979707.css",
+    "main.js": "/cevicheria/static/js/main.6562d30d.js",
+    "static/media/menuBackground.jpg": "/cevicheria/static/media/menuBackground.20670dfe1cd33ac5fa82.jpg",
+    "static/media/header1.png": "/cevicheria/static/media/header1.7c6fc59a1ad6ff5ca459.png",
+    "static/media/header2.jpg": "/cevicheria/static/media/header2.b179179c6e2eb02dc3b4.jpg",
+    "static/media/header3.jpg": "/cevicheria/static/media/header3.f4a21a9543b617e9b9b1.jpg",
+    "static/media/cevdarkfinal.png": "/cevicheria/static/media/cevdarkfinal.1744511172d44a74c721.png",
+    "static/media/ceviBackground.jpg": "/cevicheria/static/media/ceviBackground.0452e54280b453cd5499.jpg",
+    "index.html": "/cevicheria/index.html",
+    "main.b2979707.css.map": "/cevicheria/static/css/main.b2979707.css.map",
+    "main.6562d30d.js.map": "/cevicheria/static/js/main.6562d30d.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa2dd575.css",
-    "static/js/main.7ee2664d.js"
+    "static/css/main.b2979707.css",
+    "static/js/main.6562d30d.js"
   ]
 }
