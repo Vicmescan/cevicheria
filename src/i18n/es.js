@@ -27,7 +27,7 @@ export const es = {
 
   cevi_vegano: "Ceviche vegano (Verduras y frutas de temporada)",
   cevi_pescado: "Ceviche de pescado",
-  cevi_mixto: "Ceviche mixto (con pescado, gambas y calamrar)",
+  cevi_mixto: "Ceviche mixto (con pescado, gambas y calamar)",
   cevi_pulpo: "Ceviche de pulpo y pescado",
   cevi_nikkei: "Ceviche nikkei de atún, palta y algas nori",
 

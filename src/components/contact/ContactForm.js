@@ -31,7 +31,7 @@ function ContactForm() {
       e.preventDefault();
       setValidated(true);
 
-      fetch("http://localhost:8080/mail", {
+      fetch("/mail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
