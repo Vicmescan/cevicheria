@@ -53,6 +53,17 @@ const Impressum = () => {
             Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
             teilzunehmen.
           </p>
+          <hr></hr>
+          <p>
+            Website erstellt von Víctor Mestre Canto,{" "}
+            <a
+              href="https://github.com/Vicmescan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vicmescan{" "}
+            </a>
+          </p>
 
           <p>
             Quelle: <a href="https://www.e-recht24.de">eRecht24</a>
