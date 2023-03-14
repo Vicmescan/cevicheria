@@ -29,6 +29,8 @@ const Impressum = () => {
             Dresdener Stra&szlig;e 120
             <br />
             10999 Berlin
+            <br />
+            Steuernummer: 11 14 496 01852 56 2244
           </p>
           <h2>Kontakt</h2>
           <p>
