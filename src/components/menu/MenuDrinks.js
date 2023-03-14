@@ -32,8 +32,9 @@ const MenuDrinks = () => {
             price={[4, 7, 23]}
           />
           <MenuDrinksWine
-            title="Cautiou Cava Brut Imperial, España"
+            title="Cautiu Cava Brut Imperial, España"
             price={[5, "---", 29]}
+            no02={true}
           />
           <h3> {t("red_wine")} </h3>
           <br></br>
@@ -43,20 +44,20 @@ const MenuDrinks = () => {
           />
           <h3> {t("beer")} </h3>
           <br></br>
-          <MenuDrinksDrink title="Estrella Damm" size="0.33cl" price="3.50" />
+          <MenuDrinksDrink title="Estrella Damm" size="0.33" price="3.50" />
           <MenuDrinksDrink
             title="Rothaus Tannenzäpfle"
-            size="0.33cl"
+            size="0.33"
             price="3.50"
           />
           <MenuDrinksDrink
             title="Lammsbräu Alkoholfrei"
-            size="0.33cl"
+            size="0.33"
             price="3.50"
           />
           <MenuDrinksDrink
             title="Eichhofener Helles"
-            size="0.50cl"
+            size="0.50"
             price="4.50"
           />
           <br className="d-md-none"></br>
@@ -87,14 +88,10 @@ const MenuDrinks = () => {
             size="0.33"
             price="3.50"
           />
-          <MenuDrinksDrink
-            title={t("juices")}
-            size="0.33"
-            price="3.50"
-          />
+          <MenuDrinksDrink title={t("juices")} size="0.33" price="3.50" />
           <hr></hr>
           <h3> {t("water")} </h3>
-          <p>( {t("gas")} )</p>
+          {/* <p>( {t("gas")} )</p> */}
           <br></br>
           <MenuDrinksDrink title="Viva con Agua" size="0.33" price="3" />
           <MenuDrinksDrink title="Viva con Agua" size="0.75" price="6" />
@@ -102,10 +99,10 @@ const MenuDrinks = () => {
           <h3> {t("coffee")} </h3>
           <br></br>
           <MenuDrinksDrink
-            title='Café solo/doble'
+            title="Café solo/doble"
             additives="1"
-            size="1.5€"
-            price="2.5"
+            size="2€"
+            price="3"
           />
           <MenuDrinksDrink title="Cortado" additives="1" price="2" />
           <MenuDrinksDrink title="Descafeinado" price="2" />

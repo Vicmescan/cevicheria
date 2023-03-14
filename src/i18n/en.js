@@ -14,8 +14,8 @@ export const en = {
   // menu page
   menu_title: "MENU",
   starters: "APPETIZERS",
-  papas: "Potatoes with Huancaína cream (Vegetarian)",
-  lentejas: "Lentils salad with figs, balsamic vinegar and sweet potato cream",
+  papas: "Potatoes with Huancaína cream (vegetarian)",
+  lentejas: "Lentil salad with figs, balsamic vinegar and sweet potato cream",
   tataki:
     "Tuna-Tataki with grilled potatoes, pickled onion and aji panca-paste",
   tigre: "Tigermilk with fish and seafood",
@@ -25,15 +25,15 @@ export const en = {
   sopa: "Seafood soup",
   pulpo: "Grilled octopus with celery root puree, mushrooms and baby spinach",
 
-  cevi_vegano: "Vegan ceviche (Vegetables and seasonal fruits)",
+  cevi_vegano: "Vegan ceviche (vegetables and seasonal fruits)",
   cevi_pescado: "Fish ceviche",
   cevi_mixto: "Mixed ceviche with fish, prawns and calamari",
   cevi_pulpo: "Octopus and fish ceviche",
-  cevi_nikkei: "Tunna-Ceviche with avocado and nori seaweed",
+  cevi_nikkei: "Tuna-Ceviche with avocado and nori seaweed",
 
   desserts: "DESSERTS",
-  suspiro: "Lima-sigh (Toffe cream with meringue)",
-  sueño: "Maracuyá-dream (Maracuyá-cream, crumble and meringue)",
+  suspiro: "Lima-sigh (toffe cream with meringue)",
+  sueño: "Maracuyá-dream (maracuyá-cream, crumble and meringue)",
 
   drink_title: "DRINKS",
   white_wine: "WHITE WINE",
@@ -41,13 +41,12 @@ export const en = {
   beer: "BEER",
   long_drinks: "LONG DRINKS",
   soft_drinks: "SOFT DRINKS",
-  water: "WATER",
   coffee: "COFFEE AND TEA",
   cocktails: "PISCO COCKTAILS",
 
   bottle: "bottle",
   juices: "Apple/Orange/Ananas/Rhubarb/Juice Spritzer",
-  gas: "Sparkling or still water",
+  water: "SPARKLING OR STILL WATER",
   tee: "Various sorts of tea",
   
   additives: "Additives",

@@ -14,7 +14,7 @@ export const es = {
   // menu page
   menu_title: "MENÚ",
   starters: "ENTRADAS",
-  papas: "Papas a la Huancaína ( Vegetariano )",
+  papas: "Papas a la Huancaína ( vegetariano )",
   lentejas:
     "Ensalada de Lentejas con higos, vinagreta balsámica y crema de camotes",
   tataki: "Tataki de atún con papas grilladas y crema de ajipanca",
@@ -25,15 +25,15 @@ export const es = {
   sopa: "Sopa de pescado y mariscos",
   pulpo: "Pulpo grillado con puré de apionabo, setas y espinacas baby's",
 
-  cevi_vegano: "Ceviche vegano (Verduras y frutas de temporada)",
+  cevi_vegano: "Ceviche vegano (verduras y frutas de temporada)",
   cevi_pescado: "Ceviche de pescado",
   cevi_mixto: "Ceviche mixto (con pescado, gambas y calamar)",
   cevi_pulpo: "Ceviche de pulpo y pescado",
   cevi_nikkei: "Ceviche nikkei de atún, palta y algas nori",
 
   desserts: "POSTRES",
-  suspiro: "Suspiro a la limeña (Crema de toffe con merengue)",
-  sueño: "Sueño de maracuyá (Crema de maracuyá, crumble y merengue)",
+  suspiro: "Suspiro a la limeña (crema de toffe con merengue)",
+  sueño: "Sueño de maracuyá (crema de maracuyá, crumble y merengue)",
 
   drink_title: "BEBIDAS",
   white_wine: "VINO BLANCO",
@@ -41,13 +41,12 @@ export const es = {
   beer: "CERVEZA",
   long_drinks: "COMBINADOS",
   soft_drinks: "REFRESCOS",
-  water: "AGUA",
   coffee: "CAFÉS Y TÉS",
   cocktails: "COCTELES DE PISCO",
 
   bottle: "botella",
   juices: "Manzana/Naranja/Piña/Rábano/Soda",
-  gas: "Con gas o sin gas",
+  water: "AGUA CON O SIN GAS",
   tee: "Surtido de tés",
   
   additives: "Aditivos",

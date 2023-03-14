@@ -6,7 +6,7 @@ function Dish({ title, price }) {
     <>
       <Row className="dish">
         <Col xs={10} md={10}>
-          -{title}
+          {title}
         </Col>
         <Col className="price" xs={2} md={2}>
           {price}€

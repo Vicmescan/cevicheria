@@ -14,26 +14,26 @@ export const de = {
   // menu page
   menu_title: "SPEISEKARTE",
   starters: "VORSPEISEN",
-  papas: "Kartoofeln mit Huancaina-Sauce (Vegetarisch)",
+  papas: "Kartoffeln mit Huancaina-Sauce (Vegetarisch)",
   lentejas:
-    "Linsensalat mit Feigen, Balsamico-Vinagrette und Süßkartoffelcreme",
+    "Linsensalat mit Feigen, Balsamico-Vinaigrette und Süßkartoffelcreme",
   tataki:
     "Tuna-Tataki mit gegrillten Kartoffeln, eingelegter Zwiebel und Ajipanca-Creme",
   tigre: "Tigermilch mit Fisch und Meeresfrüchten",
 
   hot_dishes: "WARMES ESSEN",
   locro: "Peruanischer Kürbis-Eintopf mit Kürbiskernen",
-  sopa: "Fishsuppe mit Meeresfrüchten",
-  pulpo: "Gegrillter Oktopus mit Knollenselleriepüree, Pilzen und Baby-Spinat",
+  sopa: "Fischsuppe mit Meeresfrüchten",
+  pulpo: "Gegrillter Oktopus mit Pilzen, Knollenselleriepüree und Baby-Spinat",
 
   cevi_vegano: "Veganes Ceviche (Gemüse und Früchte der Saison)",
   cevi_pescado: "Fisch-Ceviche",
   cevi_mixto: "Gemischtes Ceviche mit Fisch, Garnelen und Tintenfisch",
-  cevi_pulpo: "Oktopus-und-Fisch-Ceviche",
+  cevi_pulpo: "Oktopus und Fisch-Ceviche",
   cevi_nikkei: "Thunfisch-Ceviche mit Avocado und Nori-Algen",
 
   desserts: "NACHTISCH",
-  suspiro: "Lima-Seufzer (Toffe-Crème mit Merengue)",
+  suspiro: "Lima-Seufzer (Toffee-Crème mit Merengue)",
   sueño: "Maracuya-Traum (Maracuya-Crème, Crumble und Merengue)",
 
   drink_title: "GETRÄNKE",
@@ -42,13 +42,12 @@ export const de = {
   beer: "BIER",
   long_drinks: "LONGDRINKS",
   soft_drinks: "SOFTDRINKS",
-  water: "WASSER",
   coffee: "KAFFEE UND TEE",
   cocktails: "PISCO-COCKTAILS",
 
   bottle: "Flasche",
-  juices: "Apfel/Orange/Ananas/Rhabarber/Saft Shorle",
-  gas: "laut oder leise Wasser",
+  juices: "Apfel/Orange/Ananas/Rhabarber/Saftschorle",
+  water: "LAUT ODER LEISER WASSER",
   tee: "Verschiedene Teesorten",
   
   additives: "Zusatzstoffe",

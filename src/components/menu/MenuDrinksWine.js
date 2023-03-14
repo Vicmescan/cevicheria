@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Container, Row, Col } from "react-bootstrap";
 
-function MenuDrinksWine({ title, price }) {
+function MenuDrinksWine({ title, price, no02 }) {
 
   const { t } = useTranslation();
 
@@ -11,10 +11,10 @@ return (
       <Container className="dish">
         <Row>
           <Col xs={8} md={8}>
-            -{title}<sup>(4)</sup>
+            {title}<sup>(4)</sup>
           </Col>
           <Col xs={2} md={2}>
-            0.1cl
+            0.1
           </Col>
           <Col className="price" xs={2} md={2}>
             {price[0]}€
@@ -23,10 +23,10 @@ return (
         <Row>
           <Col xs={8} md={8}></Col>
           <Col xs={2} md={2}>
-            0.2cl
+            {no02 ? null : 0.2}
           </Col>
           <Col className="price" xs={2} md={2}>
-            {price[1]}€
+            {no02 ? null : `${price[1]}€`}
           </Col>
         </Row>
         <Row>
@@ -34,7 +34,7 @@ return (
             {t("bottle")}
           </Col>
           <Col xs={2} md={2}>
-            0.75cl
+            0.75
           </Col>
           <Col className="price" xs={2} md={2}>
             {price[2]}€
