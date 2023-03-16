@@ -8,15 +8,15 @@ export const es = {
     `Desde otoño de 2013, La Cevicheria te ofrece, entre muchas otras interesantes opciones, el ceviche en un ambiente peruano y familiar en nuestro pequeño restaurante entre Oranienplatz y Kottbusser Tor, en el corazón de Kreuzberg. \n Cuidando los detalles y la identidad peruana te llevaremos en un viaje de sabores por la incomparable variedad de esta cocina única.`,
   // footer and contact
   timetable: "Horario",
-  from_monday: "De lunes a Sabado: a partir de las 18h",
+  from_monday: "De Lunes a Sábado: a partir de las 18h",
   sunday: "Domingos Cerrados",
   follow_us: "Síguenos",
   // menu page
   menu_title: "MENÚ",
   starters: "ENTRADAS",
-  papas: "Papas a la Huancaína ( vegetariano )",
+  papas: "Papas a la Huancaína (vegetariano)",
   lentejas:
-    "Ensalada de Lentejas con higos, vinagreta balsámica y crema de camotes",
+    "Ensalada de lentejas con higos, vinagreta balsámica y crema de camotes",
   tataki: "Tataki de atún con papas grilladas y crema de ajipanca",
   tigre: "Leche de tigre con pescado y mariscos",
 
@@ -32,7 +32,7 @@ export const es = {
   cevi_nikkei: "Ceviche nikkei de atún, palta y algas nori",
 
   desserts: "POSTRES",
-  suspiro: "Suspiro a la limeña (crema de toffe con merengue)",
+  suspiro: "Suspiro a la limeña (crema de toffee con merengue)",
   sueño: "Sueño de maracuyá (crema de maracuyá, crumble y merengue)",
 
   drink_title: "BEBIDAS",
@@ -42,12 +42,16 @@ export const es = {
   long_drinks: "COMBINADOS",
   soft_drinks: "REFRESCOS",
   coffee: "CAFÉS Y TÉS",
-  cocktails: "COCTELES DE PISCO",
+  cocktails: "CÓCTELES DE PISCO",
 
   bottle: "botella",
-  juices: "Manzana/Naranja/Piña/Rábano/Soda",
-  water: "AGUA CON O SIN GAS",
+  juices: "Manzana/Naranja/Piña",
+  water: "AGUA",
+  gas: "Con o sin gas",
   tee: "Surtido de tés",
+
+  no_alcohol: "Lammsbräu sin alcohol",
+
   
   additives: "Aditivos",
   caffeine: "Cafeína",

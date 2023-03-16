@@ -46,9 +46,12 @@ export const de = {
   cocktails: "PISCO-COCKTAILS",
 
   bottle: "Flasche",
-  juices: "Apfel/Orange/Ananas/Rhabarber/Saftschorle",
-  water: "LAUT ODER LEISER WASSER",
+  juices: "Apfel/Orange/Ananas",
+  water: "WASSER",
+  gas: "Laut oder leise",
   tee: "Verschiedene Teesorten",
+
+  no_alcohol: "Lammsbräu alcoholfrei",
   
   additives: "Zusatzstoffe",
   caffeine: "Koffein",

@@ -73,7 +73,7 @@ code {
 .nav-link {
   color: var(--main-text-color) !important;
   font-size: 1.7rem !important; ;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .nav-link:hover {
