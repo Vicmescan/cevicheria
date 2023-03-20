@@ -15,7 +15,9 @@
 
 .contact {
   color: var(--black-text-color)!important;
-  min-height: 94.5vh;
+  min-height: 95vh;
+  font-size: 1.3rem;
+
 }
 
 .about-link {

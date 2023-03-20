@@ -14,7 +14,7 @@ const ContactText = () => {
 
   return (
     <>
-      <h4>{t("data")}</h4>
+      <h3>{t("data")}</h3>
       <hr></hr>
       <p>
         <a
@@ -42,12 +42,12 @@ const ContactText = () => {
         </a>
       </p>
       <br></br>
-      <h4>{t("timetable")}</h4>
+      <h3>{t("timetable")}</h3>
       <hr></hr>
       <p>{t("from_monday")}</p>
       <p>{t("sunday")}</p>
       <br></br>
-      <h4>{t("follow_us")}</h4>
+      <h3>{t("follow_us")}</h3>
       <hr></hr>
       <Container className="d-flex justify-content-around">
         <a

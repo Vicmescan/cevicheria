@@ -56,7 +56,7 @@ function ContactForm() {
 
   return (
     <>
-      <h4 className="text-center">{t("write_us")}</h4>
+      <h3 className="text-center">{t("write_us")}</h3>
       <hr></hr>
       <Form noValidate validated={validated}>
         <Form.Group className="mb-3">
