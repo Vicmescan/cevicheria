@@ -23,6 +23,7 @@ const Contact = () => {
           {t("contact_title")}{" "}
         </h2>
         <br className="d-none d-md-block" ></br>
+        {/* quitar to los classname del Container cuando meta el contactform */}
         <Container fluid className="ps-md-5 text-center about">
           {/* <Row>
             <Col md={6} className="ps-md-5 text-center about"> */}
