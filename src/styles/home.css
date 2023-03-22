@@ -34,3 +34,9 @@
   color: var(--black-text-color);
   margin: 0rem 0 0rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  .homeQuote {
+      font-size: 1.4rem;
+  }
+}
