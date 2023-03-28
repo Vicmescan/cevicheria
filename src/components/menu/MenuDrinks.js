@@ -13,7 +13,7 @@ const MenuDrinks = () => {
           <br></br>
           <MenuDrinksWine
             title="Vino Verde Messias, Portugal"
-            price={[5.5, 5.5, 19]}
+            price={[3.5, 5.5, 19]}
           />
           <MenuDrinksWine
             title="Vino Sanzo Rueda Verdejo, España"
