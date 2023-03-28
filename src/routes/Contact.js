@@ -2,7 +2,7 @@ import React from "react";
 import ScrollUp from "..";
 import Header from "../components/common/Header";
 import ContactText from "../components/contact/ContactText";
-// import ContactForm from "../components/contact/ContactForm";
+import ContactForm from "../components/contact/ContactForm";
 import { Row, Col, Container } from "react-bootstrap";
 import DatenImpresumFooter from "../components/common/DatenImpresumFooter";
 import "../styles/contact.css";
@@ -23,16 +23,15 @@ const Contact = () => {
           {t("contact_title")}{" "}
         </h2>
         <br className="d-none d-md-block" ></br>
-        {/* quitar to los classname del Container cuando meta el contactform */}
-        <Container fluid className="ps-md-5 text-center about">
-          {/* <Row>
-            <Col md={6} className="ps-md-5 text-center about"> */}
+        <Container fluid>
+          <Row>
+            <Col md={6} className="ps-md-5 text-center about">
               <ContactText />
-            {/* </Col>
+            </Col>
             <Col md={4}>
               <ContactForm />
             </Col>
-          </Row> */}
+          </Row>
         </Container>
         <br></br>
       </div>

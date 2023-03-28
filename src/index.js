@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home";
 import Menu from "./routes/Menu";
 import Contact from "./routes/Contact";
+import Confirm from "./routes/Confirm";
 import "./styles/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LoadingPage from "./routes/LoadingPage";
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/confirm",
+    element: <Confirm />,
   },
 ]);
 
