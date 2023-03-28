@@ -40,7 +40,7 @@ function ContactForm() {
 
 
       {/* ¡¡¡¡¡¡¡¡¡¡¡¡ CAMBIAR LA DIRECCION DE AQUÍ ABAJO CUANDO SE DESPLIEGUE !!!!!!!!! */}
-        <input type="hidden" name="_next" value="http://cevicheria-berlin-com.preview-domain.com/confirm"></input>
+        <input type="hidden" name="_next" value="https://main.deww8awiytzcc.amplifyapp.com/confirm"></input>
         <input type="hidden" name="_captcha" value="false"></input>
       </Form>
     </>

@@ -11,7 +11,7 @@ const Confirm = () => {
 
   /* ¡¡¡¡¡ CAMBIAR LA DIRECCIÓN DE ABAJO CUANDO SE DESPLIEGUE !!!!! */
     setTimeout(() => {
-      navigation("/contact");
+      navigation("https://main.deww8awiytzcc.amplifyapp.com/contact");
     }, 5000);
 
   return (
