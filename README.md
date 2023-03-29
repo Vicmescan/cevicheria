@@ -6,6 +6,12 @@ This website was created for the restaurant La Cevicheria located at Dresdener S
 
 For this project I basically used React, React Bootstrap for the design and some libraries for the translations, the routing, the icons or the coockies sign.
 
+https://cevicheria-berlin.com
+
+<br></br>
+
+<img src="./src/images/CevicheriaReadme.png">
+
 ## To update meals or beverages
 
 - Delete components representing food/drink in src/components/MenuDishes.js or src/components/MenuDrinks.js components.
