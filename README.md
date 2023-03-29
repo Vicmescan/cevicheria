@@ -2,15 +2,9 @@
 
 ## Intro
 
-This website was created for the restaurant La Cevicheria located at Dresdener Straße 120, Berlin, and is deployed on the xxx platform.
+This website was created for the restaurant La Cevicheria located at Dresdener Straße 120, Berlin, and is deployed on Hostinger host.
 
 For this project I basically used React, React Bootstrap for the design and some libraries for the translations, the routing, the icons or the coockies sign.
-
-https://cevicheria-berlin.com
-
-<br></br>
-
-<img src="./src/images/CevicheriaReadme.png">
 
 ## To update meals or beverages
 
