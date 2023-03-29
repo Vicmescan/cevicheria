@@ -10,7 +10,7 @@ https://cevicheria-berlin.com
 
 <br></br>
 
-<img src="./src/images/CevicheriaReadme.png">
+<img src="./src/images/cevicheriaReadme.png">
 
 ## To update meals or beverages
 
