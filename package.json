@@ -1,6 +1,8 @@
 {
-  "name": "hostinger-react-app",
+  "name": "hostinger-react",
+  "homepage": "https://cevicheria-berlin.com",
   "version": "0.1.0",
+  "description": "my react application",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
