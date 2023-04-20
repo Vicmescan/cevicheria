@@ -8,10 +8,8 @@ const Confirm = () => {
   const { t } = useTranslation();
   const navigation = useNavigate();
 
-
-  /* ¡¡¡¡¡ CAMBIAR LA DIRECCIÓN DE ABAJO CUANDO SE DESPLIEGUE !!!!! */
     setTimeout(() => {
-      navigation("https://cevicheria-berlin.com/contact");
+      navigation("/contact");
     }, 5000);
 
   return (

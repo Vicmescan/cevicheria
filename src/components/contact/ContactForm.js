@@ -38,8 +38,6 @@ function ContactForm() {
           {t("submit")}
         </Button>
 
-
-      {/* ¡¡¡¡¡¡¡¡¡¡¡¡ CAMBIAR LA DIRECCION DE AQUÍ ABAJO CUANDO SE DESPLIEGUE !!!!!!!!! */}
         <input type="hidden" name="_next" value="https://cevicheria-berlin.com/confirm"></input>
         <input type="hidden" name="_captcha" value="false"></input>
       </Form>
