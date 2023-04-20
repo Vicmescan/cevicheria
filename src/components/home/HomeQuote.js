@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import Container from "react-bootstrap/Container";
+import { Fade } from "react-awesome-reveal";
 
 const HomeQuote = () => {
   const { t } = useTranslation();
@@ -10,13 +11,17 @@ const HomeQuote = () => {
   return (
     <>
       <div className="homeQuote-background"></div>
-      <Container className="homeQuote text-center">
-        <div>
-          {items.map((item, index) => (
-            <p key={index} >{item}</p>
-          ))}
+      <Fade delay={300}>
+        <div className="homeQuote-background-overlay">
+          <Container className="homeQuote text-center">
+            <div>
+              {items.map((item, index) => (
+                <p key={index}>{item}</p>
+              ))}
+            </div>
+          </Container>
         </div>
-      </Container>
+      </Fade>
     </>
   );
 };
