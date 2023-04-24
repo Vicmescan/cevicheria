@@ -16,9 +16,9 @@
 
 .carouselPics {
   margin: auto;
-  margin-top: 8vh;
+  margin-top: 6vh;
   width: 100vw;
-  height: 92vh;
+  height: 95vh;
   object-fit: cover;
   position: static;
 }

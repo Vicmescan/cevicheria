@@ -10,7 +10,7 @@ const HomeQuote = () => {
 
   return (
       <div className="homeQuote-background">
-        <Fade delay={1000}>
+        <Fade delay={500}>
           <div className="homeQuote-background-overlay">
             <Container className="homeQuote text-center">
               <div>
