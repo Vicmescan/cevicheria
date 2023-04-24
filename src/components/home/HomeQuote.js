@@ -9,20 +9,19 @@ const HomeQuote = () => {
   const items = t("home_quote").split("\n");
 
   return (
-    <>
-      <div className="homeQuote-background"></div>
-      <Fade delay={300}>
-        <div className="homeQuote-background-overlay">
-          <Container className="homeQuote text-center">
-            <div>
-              {items.map((item, index) => (
-                <p key={index}>{item}</p>
-              ))}
-            </div>
-          </Container>
-        </div>
-      </Fade>
-    </>
+      <div className="homeQuote-background">
+        <Fade delay={1000}>
+          <div className="homeQuote-background-overlay">
+            <Container className="homeQuote text-center">
+              <div>
+                {items.map((item, index) => (
+                  <p key={index}>{item}</p>
+                ))}
+              </div>
+            </Container>
+          </div>
+        </Fade>
+      </div>
   );
 };
 

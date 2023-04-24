@@ -28,7 +28,7 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <Navbar className="header fluid" expand="md" sticky="top">
+    <Navbar className="header fluid" expand="md" fixed="top" variant="dark">
       <Container>
         <Navbar.Brand as={Link} to="/" className="justify-content-left ">
           <img className="logo" src={logo} alt="logo" />

@@ -10,10 +10,18 @@ export default function Root() {
 
   return (
     <>
-      <Header />
-      <HomeCarousel />
-      <HomeQuote />
-      <Footer />
+      <div className="snap-container">
+        <Header />
+        <div>
+          <HomeCarousel />
+        </div>
+        <div>
+          <HomeQuote />
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </div>
       <CookieConsent
         location="bottom"
         buttonText="¡Chevere!"

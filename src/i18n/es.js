@@ -71,5 +71,5 @@ export const es = {
   telephone_placeholder: "Escribe tu teléfono",
   message: "Mensaje",
   submit: "Enviar",
-  confirmation_Message: "Gracias, tu mensaje ha sido enviado",
+  confirmation_Message: "Gracias, tu mensaje ha sido enviado.",
 };
