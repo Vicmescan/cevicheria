@@ -4,28 +4,40 @@ import Header from "../components/common/Header";
 import MenuDishes from "../components/menu/MenuDishes";
 import MenuDrinks from "../components/menu/MenuDrinks";
 import Footer from "../components/common/Footer";
+import { motion } from "framer-motion";
 import "../styles/menu.css";
 import ScrollUp from "..";
 
 export default function Menu() {
-
   ScrollUp();
 
   const { t } = useTranslation();
 
   return (
-    <div className="menu" >
+    <>
       <Header />
-      <div className="menu-background"></div>
-      <br></br>
-      <h2 className="text-decoration-underline mb-5 text-center ">{t("menu_title")}</h2>
-      <MenuDishes />
-      <hr></hr>
-      <br></br>
-      <h2 className="text-decoration-underline mb-5 text-center "> {t("drink_title")} </h2>
-      <MenuDrinks />
-      <br></br>
-      <Footer />
-    </div>
+      <motion.div
+        className="menu"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, transition: { duration: 1.5 } }}
+        exit={{ opacity: 0 }}
+      >
+        <div className="menu-background"></div>
+        <br></br>
+        <h2 className="text-decoration-underline mb-5 text-center ">
+          {t("menu_title")}
+        </h2>
+        <MenuDishes />
+        <hr></hr>
+        <br></br>
+        <h2 className="text-decoration-underline mb-5 text-center ">
+          {" "}
+          {t("drink_title")}{" "}
+        </h2>
+        <MenuDrinks />
+        <br></br>
+        <Footer />
+      </motion.div>
+    </>
   );
 }
