@@ -32,7 +32,7 @@ function ContactForm() {
             name="phone"
           />
           <Form.Label>{t("message")}*</Form.Label>
-          <Form.Control required as="textarea" rows={3} name="message" />
+          <Form.Control required as="textarea" rows={6} name="message" />
         </Form.Group>
         <Button className="about-submit" variant="outline-dark" type="submit" >
           {t("submit")}
