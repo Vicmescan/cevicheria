@@ -1,6 +1,7 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
+import { Fade } from "react-awesome-reveal";
 
 function ContactForm() {
   // translation
@@ -8,9 +9,14 @@ function ContactForm() {
 
   return (
     <>
-      <h3 className="text-center">{t("write_us")}</h3>
+      <Fade direction="left" triggerOnce="true">
+        <h3 className="text-center">{t("write_us")}</h3>
+      </Fade>
       <hr></hr>
-      <Form action="https://formsubmit.co/info@cevicheria-berlin.com" method="POST">
+      <Form
+        action="https://formsubmit.co/info@cevicheria-berlin.com"
+        method="POST"
+      >
         <Form.Group className="mb-3">
           <Form.Label>{t("name")}*</Form.Label>
           <Form.Control
@@ -34,11 +40,15 @@ function ContactForm() {
           <Form.Label>{t("message")}*</Form.Label>
           <Form.Control required as="textarea" rows={6} name="message" />
         </Form.Group>
-        <Button className="about-submit" variant="outline-dark" type="submit" >
+        <Button className="about-submit" variant="outline-dark" type="submit">
           {t("submit")}
         </Button>
 
-        <input type="hidden" name="_next" value="https://cevicheria-berlin.com/confirm"></input>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://cevicheria-berlin.com/confirm"
+        ></input>
         <input type="hidden" name="_captcha" value="false"></input>
       </Form>
     </>

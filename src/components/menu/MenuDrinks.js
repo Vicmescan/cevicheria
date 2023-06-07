@@ -3,13 +3,16 @@ import { Row, Col, Container } from "react-bootstrap";
 import MenuDrinksWine from "./MenuDrinksWine";
 import MenuDrinksDrink from "./MenuDrinksDrink";
 import { t } from "i18next";
+import { Fade } from "react-awesome-reveal";
 
 const MenuDrinks = () => {
   return (
     <Container className="menu-container">
       <Row>
         <Col md>
-          <h3> {t("white_wine")} </h3>
+          <Fade direction="left" triggerOnce="true">
+            <h3> {t("white_wine")} </h3>
+          </Fade>
           <br></br>
           <MenuDrinksWine
             title="Vino Verde Messias, Portugal"
@@ -36,13 +39,17 @@ const MenuDrinks = () => {
             price={[5, "---", 29]}
             no02={true}
           />
-          <h3> {t("red_wine")} </h3>
+          <Fade direction="left" triggerOnce="true">
+            <h3> {t("red_wine")} </h3>
+          </Fade>
           <br></br>
           <MenuDrinksWine
             title="Lacrimus Rex. Garnacha y Graciano, España"
             price={[4, 7, 23]}
           />
-          <h3> {t("beer")} </h3>
+          <Fade direction="left" triggerOnce="true">
+            <h3> {t("beer")} </h3>
+          </Fade>
           <br></br>
           <MenuDrinksDrink title="Estrella Damm" size="0.33" price="3.50" />
           <MenuDrinksDrink
@@ -50,11 +57,7 @@ const MenuDrinks = () => {
             size="0.33"
             price="3.50"
           />
-          <MenuDrinksDrink
-            title={t("no_alcohol")}
-            size="0.33"
-            price="3.50"
-          />
+          <MenuDrinksDrink title={t("no_alcohol")} size="0.33" price="3.50" />
           <MenuDrinksDrink
             title="Eichhofener Helles"
             size="0.50"
@@ -64,13 +67,17 @@ const MenuDrinks = () => {
         </Col>
         <hr className="d-md-none"></hr>
         <Col>
-          <h3> {t("long_drinks")} </h3>
+          <Fade direction="left" triggerOnce="true">
+            <h3> {t("long_drinks")} </h3>
+          </Fade>
           <br></br>
           <MenuDrinksDrink title="Gin Tonic" additives="3" price="9" />
           <MenuDrinksDrink title="Aperol Spritz" additives="3" price="9" />
           <MenuDrinksDrink title="Campari Spritz" additives="3" price="9" />
           <hr></hr>
+          <Fade direction="left" triggerOnce="true">
           <h3> {t("soft_drinks")} </h3>
+          </Fade>
           <br></br>
           <MenuDrinksDrink
             title="Proviant Orangenlimo"
@@ -90,13 +97,17 @@ const MenuDrinks = () => {
           />
           <MenuDrinksDrink title={t("juices")} size="0.33" price="3.50" />
           <hr></hr>
-          <h3> {t("water")} </h3>
+          <Fade direction="left" triggerOnce="true">
+            <h3> {t("water")} </h3>
+          </Fade>
           {/* <p>( {t("gas")} )</p> */}
           <br></br>
           <MenuDrinksDrink title={t("gas")} size="0.33" price="3" />
           <MenuDrinksDrink title={t("gas")} size="0.75" price="6" />
           <hr></hr>
-          <h3> {t("coffee")} </h3>
+          <Fade direction="left" triggerOnce="true">
+            <h3> {t("coffee")} </h3>
+          </Fade>
           <br></br>
           <MenuDrinksDrink
             title="Café solo/doble"
@@ -108,7 +119,9 @@ const MenuDrinks = () => {
           <MenuDrinksDrink title="Descafeinado" price="2" />
           <MenuDrinksDrink title={t("tee")} price="2" />
           <hr></hr>
-          <h3> {t("cocktails")} </h3>
+          <Fade direction="left" triggerOnce="true">
+            <h3> {t("cocktails")} </h3>
+          </Fade>
           <br></br>
           <MenuDrinksDrink title="Pisco Sour" additives="2" price="10" />
           <MenuDrinksDrink title="Pisco Maracuyá" additives="2" price="10" />

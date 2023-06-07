@@ -6,8 +6,9 @@ import ContactForm from "../components/contact/ContactForm";
 import { Row, Col, Container } from "react-bootstrap";
 import DatenImpresumFooter from "../components/common/DatenImpresumFooter";
 import { motion } from "framer-motion";
-import "../styles/contact.css";
 import { useTranslation } from "react-i18next";
+import { Fade } from "react-awesome-reveal";
+import "../styles/contact.css";
 
 const Contact = () => {
   ScrollUp();
@@ -25,14 +26,14 @@ const Contact = () => {
         <div className="contact">
           <div className="contact-background"></div>
           <br></br>
-          <h2 className="text-decoration-underline mb-5 text-center ">
+          <h1 className="text-decoration-underline mb-5 text-center ">
             {t("contact_title")}{" "}
-          </h2>
+          </h1>
           <br className="d-none d-md-block"></br>
           <Container fluid>
             <Row>
               <Col xl={1} className="d-none d-xl-block"></Col>
-              <Col md={6}  xl={5} className="ps-md-5 text-center">
+              <Col md={6} xl={5} className="ps-md-5 text-center">
                 <ContactText />
               </Col>
               <Col xl={1} className="d-none d-xl-block"></Col>

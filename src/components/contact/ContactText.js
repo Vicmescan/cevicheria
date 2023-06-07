@@ -6,15 +6,17 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { Container } from "react-bootstrap";
+import { Fade } from "react-awesome-reveal";
 import "../../styles/contact.css";
 
 const ContactText = () => {
-
   const { t } = useTranslation();
 
   return (
     <>
-      <h3>{t("data")}</h3>
+      <Fade direction="left" triggerOnce="true">
+        <h3>{t("data")}</h3>
+      </Fade>
       <hr></hr>
       <p>
         <a
@@ -42,12 +44,16 @@ const ContactText = () => {
         </a>
       </p>
       <br></br>
-      <h3>{t("timetable")}</h3>
+      <Fade direction="left" triggerOnce="true">
+        <h3>{t("timetable")}</h3>
+      </Fade>
       <hr></hr>
       <p>{t("from_monday")}</p>
       <p>{t("sunday")}</p>
       <br></br>
-      <h3>{t("follow_us")}</h3>
+      <Fade direction="left" triggerOnce="true">
+        <h3>{t("follow_us")}</h3>
+      </Fade>
       <hr></hr>
       <Container className="d-flex justify-content-around">
         <a
@@ -81,8 +87,8 @@ const ContactText = () => {
           </IconContext.Provider>
         </a>
       </Container>
-        <br className="d-md-none" ></br>
-        <br className="d-md-none" ></br>
+      <br className="d-md-none"></br>
+      <br className="d-md-none"></br>
     </>
   );
 };
