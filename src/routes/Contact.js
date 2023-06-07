@@ -31,12 +31,15 @@ const Contact = () => {
           <br className="d-none d-md-block"></br>
           <Container fluid>
             <Row>
-              <Col md={6} className="ps-md-5 text-center about">
+              <Col xl={1} className="d-none d-xl-block"></Col>
+              <Col md={6}  xl={5} className="ps-md-5 text-center">
                 <ContactText />
               </Col>
-              <Col md={4}>
+              <Col xl={1} className="d-none d-xl-block"></Col>
+              <Col md={6} xl={4} className="pe-md-4">
                 <ContactForm />
               </Col>
+              <Col xl={1} className="d-none d-xl-block"></Col>
             </Row>
           </Container>
           <br></br>

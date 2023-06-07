@@ -24,16 +24,16 @@ export default function Menu() {
       >
         <div className="menu-background"></div>
         <br></br>
-        <h2 className="text-decoration-underline mb-5 text-center ">
+        <h1 className="text-decoration-underline mb-5 text-center ">
           {t("menu_title")}
-        </h2>
+        </h1>
         <MenuDishes />
         <hr></hr>
         <br></br>
-        <h2 className="text-decoration-underline mb-5 text-center ">
+        <h1 className="text-decoration-underline mb-5 text-center ">
           {" "}
           {t("drink_title")}{" "}
-        </h2>
+        </h1>
         <MenuDrinks />
         <br></br>
         <Footer />

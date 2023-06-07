@@ -17,7 +17,7 @@
   color: var(--black-text-color)!important;
   min-height: 95vh;
   font-size: 1.3rem;
-
+  margin-top: 10vh;
 }
 
 .about-link {
@@ -41,4 +41,9 @@
 .about-submit {
   background-color: var(--main-background-color) !important;
   color: var(--main-text-color) !important;
+}
+
+.about-submit:hover {
+  background-color: var(--main-text-color) !important;
+  color: var(--main-background-color) !important;
 }
