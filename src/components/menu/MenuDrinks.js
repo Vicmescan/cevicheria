@@ -3,16 +3,16 @@ import { Row, Col, Container } from "react-bootstrap";
 import MenuDrinksWine from "./MenuDrinksWine";
 import MenuDrinksDrink from "./MenuDrinksDrink";
 import { t } from "i18next";
-import { Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const MenuDrinks = () => {
   return (
     <Container className="menu-container">
       <Row>
         <Col md>
-          <Fade direction="left" triggerOnce="true">
+          <Zoom  triggerOnce="true">
             <h3> {t("white_wine")} </h3>
-          </Fade>
+          </Zoom>
           <br></br>
           <MenuDrinksWine
             title="Vino Verde Messias, Portugal"
@@ -39,17 +39,17 @@ const MenuDrinks = () => {
             price={[5, "---", 29]}
             no02={true}
           />
-          <Fade direction="left" triggerOnce="true">
+          <Zoom  triggerOnce="true">
             <h3> {t("red_wine")} </h3>
-          </Fade>
+          </Zoom>
           <br></br>
           <MenuDrinksWine
             title="Lacrimus Rex. Garnacha y Graciano, España"
             price={[4, 7, 23]}
           />
-          <Fade direction="left" triggerOnce="true">
+          <Zoom  triggerOnce="true">
             <h3> {t("beer")} </h3>
-          </Fade>
+          </Zoom>
           <br></br>
           <MenuDrinksDrink title="Estrella Damm" size="0.33" price="3.50" />
           <MenuDrinksDrink
@@ -67,47 +67,47 @@ const MenuDrinks = () => {
         </Col>
         <hr className="d-md-none"></hr>
         <Col>
-          <Fade direction="left" triggerOnce="true">
+          <Zoom  triggerOnce="true">
             <h3> {t("long_drinks")} </h3>
-          </Fade>
+          </Zoom>
           <br></br>
           <MenuDrinksDrink title="Gin Tonic" additives="3" price="9" />
           <MenuDrinksDrink title="Aperol Spritz" additives="3" price="9" />
           <MenuDrinksDrink title="Campari Spritz" additives="3" price="9" />
           <hr></hr>
-          <Fade direction="left" triggerOnce="true">
+          <Zoom  triggerOnce="true">
           <h3> {t("soft_drinks")} </h3>
-          </Fade>
+          </Zoom>
           <br></br>
           <MenuDrinksDrink
-            title="Proviant Orangenlimo"
+            title="Fritz Honigmelone"
             size="0.33"
             price="3.50"
           />
           <MenuDrinksDrink
-            title="Proviant Zitronenlimo & Ingwer"
+            title="Fritz Zitrone"
             size="0.33"
             price="3.50"
           />
           <MenuDrinksDrink
-            title="Proviant Cola"
+            title="Solicola"
             additives="1"
             size="0.33"
             price="3.50"
           />
           <MenuDrinksDrink title={t("juices")} size="0.33" price="3.50" />
           <hr></hr>
-          <Fade direction="left" triggerOnce="true">
+          <Zoom  triggerOnce="true">
             <h3> {t("water")} </h3>
-          </Fade>
+          </Zoom>
           {/* <p>( {t("gas")} )</p> */}
           <br></br>
           <MenuDrinksDrink title={t("gas")} size="0.33" price="3" />
           <MenuDrinksDrink title={t("gas")} size="0.75" price="6" />
           <hr></hr>
-          <Fade direction="left" triggerOnce="true">
+          <Zoom  triggerOnce="true">
             <h3> {t("coffee")} </h3>
-          </Fade>
+          </Zoom>
           <br></br>
           <MenuDrinksDrink
             title="Café solo/doble"
@@ -119,9 +119,9 @@ const MenuDrinks = () => {
           <MenuDrinksDrink title="Descafeinado" price="2" />
           <MenuDrinksDrink title={t("tee")} price="2" />
           <hr></hr>
-          <Fade direction="left" triggerOnce="true">
+          <Zoom  triggerOnce="true">
             <h3> {t("cocktails")} </h3>
-          </Fade>
+          </Zoom>
           <br></br>
           <MenuDrinksDrink title="Pisco Sour" additives="2" price="10" />
           <MenuDrinksDrink title="Pisco Maracuyá" additives="2" price="10" />

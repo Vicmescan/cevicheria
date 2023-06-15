@@ -6,7 +6,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { Container } from "react-bootstrap";
-import { Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 import "../../styles/contact.css";
 
 const ContactText = () => {
@@ -14,9 +14,9 @@ const ContactText = () => {
 
   return (
     <>
-      <Fade direction="left" triggerOnce="true">
+      <Zoom  triggerOnce="true">
         <h3>{t("data")}</h3>
-      </Fade>
+      </Zoom>
       <hr></hr>
       <p>
         <a
@@ -44,16 +44,16 @@ const ContactText = () => {
         </a>
       </p>
       <br></br>
-      <Fade direction="left" triggerOnce="true">
+      <Zoom  triggerOnce="true">
         <h3>{t("timetable")}</h3>
-      </Fade>
+      </Zoom>
       <hr></hr>
       <p>{t("from_monday")}</p>
       <p>{t("sunday")}</p>
       <br></br>
-      <Fade direction="left" triggerOnce="true">
+      <Zoom  triggerOnce="true">
         <h3>{t("follow_us")}</h3>
-      </Fade>
+      </Zoom>
       <hr></hr>
       <Container className="d-flex justify-content-around">
         <a

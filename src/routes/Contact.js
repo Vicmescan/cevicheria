@@ -7,7 +7,6 @@ import { Row, Col, Container } from "react-bootstrap";
 import DatenImpresumFooter from "../components/common/DatenImpresumFooter";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Fade } from "react-awesome-reveal";
 import "../styles/contact.css";
 
 const Contact = () => {

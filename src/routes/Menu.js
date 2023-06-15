@@ -7,7 +7,6 @@ import Footer from "../components/common/Footer";
 import { motion } from "framer-motion";
 import "../styles/menu.css";
 import ScrollUp from "..";
-import { Fade } from "react-awesome-reveal";
 
 export default function Menu() {
   ScrollUp();

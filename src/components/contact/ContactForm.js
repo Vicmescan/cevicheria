@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-import { Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 function ContactForm() {
   // translation
@@ -9,9 +9,9 @@ function ContactForm() {
 
   return (
     <>
-      <Fade direction="left" triggerOnce="true">
+      <Zoom  triggerOnce="true">
         <h3 className="text-center">{t("write_us")}</h3>
-      </Fade>
+      </Zoom>
       <hr></hr>
       <Form
         action="https://formsubmit.co/info@cevicheria-berlin.com"

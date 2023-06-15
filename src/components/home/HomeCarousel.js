@@ -6,7 +6,7 @@ import header3 from "../../images/header3.webp";
 
 function HomeCarousel() {
   return (
-    <Carousel fade className="carousel">
+    <Carousel Zoom className="carousel">
       <Carousel.Item>
         <img className="carouselPics d-block" src={header2} alt="First slide" />
         <Carousel.Caption></Carousel.Caption>
