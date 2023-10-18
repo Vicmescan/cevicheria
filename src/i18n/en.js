@@ -14,15 +14,19 @@ export const en = {
   // menu page
   menu_title: "MENU",
   starters: "APPETIZERS",
-  papas: "Potatoes with Huancaína cream (vegetarian)",
+  papas: "Potatoes or fried manioc with Huancaina cream (vegetarian)",
   salmorejo: "Salmorejo vegan or with Mojama and hard-boiled egg",
   pallares: "lima-bean salad with orange-vinaigrette and fried rocket",
-  tiradito: "Fish-Carpaccio with passion fruit tigermilk, chili and crispy strawberries",
+  ensalada: "Salad with beluga lentils, fennel and avocado-cream",
+  tiradito: "Fish-Carpaccio with pomegranate tigermilk and flaked almonds",
   tigre: "Tigermilk with fish and seafood",
 
   hot_dishes: "HOT DISHES",
+  locro: "Peruvian pumpkin stew with pumpkin seeds",
+  queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - with goat cheese",
+  sopa: "Seafood soup",
   tataki: "Tuna-Tataki with grilled potatoes, pickled onion and Ajipanca",
-  pulpo: "Grilled octopus with Lima-puree and crispy glass noodles",
+  pulpo: "Grilled octopus with fried manioc, baby spinach and Lima Bean puree",
 
   cevi_vegano: "Vegan ceviche (vegetables and seasonal fruits)",
   cevi_pescado: "Fish ceviche",

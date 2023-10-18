@@ -14,15 +14,19 @@ export const es = {
   // menu page
   menu_title: "MENÚ",
   starters: "ENTRADAS",
-  papas: "Papas a la Huancaína (vegetariano)",
+  papas: "Papas o yuca frita a la Huancaína (vegetariano)",
   salmorejo: "Salmorejo vegano o con Mojama y huevo duro picado",
   pallares: "Ensalada de pallares con vinagreta de naranja y rúcula frita",
-  tiradito: "Tiradito con leche de tigre de maracuyá, ají y fresas crujientes",
+  ensalada: "Ensalada de lentejas beluga con hinojo y crema de palta",
+  tiradito: "Tiradito con leche de tigre de granada y almendras laminadas",
   tigre: "Leche de tigre con pescado y mariscos",
 
   hot_dishes: "PLATOS CALIENTES",
+  locro: "Locro de zapallo con semillas de calabaza",
+  queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - con queso de cabra",
+  sopa: "Sopa de pescado y mariscos",
   tataki: "Tataki de atún con papas grilladas, cebolla encurtida y crema de Ajipanca",
-  pulpo: "Pulpo grillado al olivo con causa a la limeña y fideos crujientes de arroz",
+  pulpo: "Pulpo grillado con yuca frita, espinacas tiernas y causa de pallares",
 
   cevi_vegano: "Ceviche vegano (verduras y frutas de temporada)",
   cevi_pescado: "Ceviche de pescado",

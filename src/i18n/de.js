@@ -14,15 +14,19 @@ export const de = {
   // menu page
   menu_title: "SPEISEKARTE",
   starters: "VORSPEISEN",
-  papas: "Kartoffeln mit Huancaina-Sauce (Vegetarisch)",
+  papas: "Kartoffeln oder frittierter Maniok mit Huancaina Sauce (Vegetarisch)",
   salmorejo: "Salmorejo vegan oder mit Mojama und hartgekochtem Ei",
   pallares: "Lima-Bohnen-Salat mit Orangenvinaigrette und frittiertem Rucola",
-  tiradito: "Fisch-Carpaccio mit Maracuja-Tigermilch, Chili mit knusprigen Erdbeeren",
+  ensalada: "Beluga-Linsen-Salat mit Fenchel und Avocado-Creme",
+  tiradito: "Fisch-Carpaccio mit Granatapfel-Tigermilch und Mandelblättchen",
   tigre: "Tigermilch mit Fisch und Meeresfrüchten",
 
   hot_dishes: "WARMES ESSEN",
+  locro: "Peruanischer Kürbiseintopf mit Kürbiskernen",
+  queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - mit Ziegenkäse",
+  sopa: "Fischesuppe mit Meersesfrüchten",
   tataki: "Thunfisch-Tataki mit gegrilltem Kartoffeln, eingelegter Zwiebel und Ajipanca",
-  pulpo: "Gegrillter Oktopus mit Lima-Püree und knackigen Glasnudeln",
+  pulpo: "Gegrillter Oktopus mit frittiertem Maniok, Babyspinat und Limabohnenpüree",
 
   cevi_vegano: "Veganes Ceviche (Gemüse und Früchte der Saison)",
   cevi_pescado: "Fisch-Ceviche",

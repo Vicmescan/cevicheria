@@ -15,15 +15,19 @@ export default function MenuDishes() {
           <Zoom direction="bottom" triggerOnce="true">
             <h3>{t("starters")}</h3>
           </Zoom>
-          <MenuDishesDish title={t("papas")} price={7} />
-          <MenuDishesDish title={t("salmorejo")} price={"7/9"} />
-          <MenuDishesDish title={t("pallares")} price={12} />
+          <MenuDishesDish title={t("papas")} price={8} />
+          {/* <MenuDishesDish title={t("salmorejo")} price={"7/9"} />
+          <MenuDishesDish title={t("pallares")} price={12} /> */}
+          <MenuDishesDish title={t("ensalada")} price={12} />
           <MenuDishesDish title={t("tiradito")} price={14} />
-          <MenuDishesDish title={t("tigre")} price={12} />
+          {/* <MenuDishesDish title={t("tigre")} price={12} /> */}
           <hr></hr>
           <Zoom  triggerOnce="true">
             <h3>{t("hot_dishes")} </h3>
           </Zoom>
+          <MenuDishesDish title={t("locro")} price={8} />
+          <MenuDishesDish title={t("queso")} price={10} />
+          <MenuDishesDish title={t("sopa")} price={14} />
           <MenuDishesDish title={t("tataki")} price={16} />
           <MenuDishesDish title={t("pulpo")} price={29} />
         </Col>
