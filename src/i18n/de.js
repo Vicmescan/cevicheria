@@ -24,7 +24,7 @@ export const de = {
   hot_dishes: "WARMES ESSEN",
   locro: "Peruanischer Kürbiseintopf mit Kürbiskernen",
   queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - mit Ziegenkäse",
-  sopa: "Fischesuppe mit Meersesfrüchten",
+  sopa: "Fischsuppe mit Meeresfrüchten",
   tataki: "Thunfisch-Tataki mit gegrilltem Kartoffeln, eingelegter Zwiebel und Ajipanca",
   pulpo: "Gegrillter Oktopus mit frittiertem Maniok, Babyspinat und Limabohnenpüree",
 
