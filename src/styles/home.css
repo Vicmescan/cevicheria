@@ -23,6 +23,10 @@
   position: static;
 }
 
+.pizarra {
+  object-fit: fill;
+}
+
 .homeQuote-background {
   background-image: url("../images/homeQuoteBackground.webp");
   background-repeat: no-repeat;

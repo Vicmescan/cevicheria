@@ -7,7 +7,7 @@ export const de = {
   home_quote:
     'Seit Herbst 2013 bieten wir Dir, neben anderen interessanten Gerichten, das klassische peruanische Ceviche in unserem kleinen, entspannten Restaurant, gelegen zwischen Oranienplatz und Kottbusser Tor, im Herzen von Kreuzberg.\n Mit viel Liebe zum Detail nehmen wir Dich mit auf eine unverwechselbare Geschmacksreise durch die Vielfalt der peruanischen Küche.',
   // footer and contact
-  timetable: "Öffnungszeiten",
+  timetable: "Öffnungszeiten (ab 31. Januar)",
   from_monday: "Von Montag bis Samstag: ab 18 Uhr",
   sunday: "Sonntags geschlossen",
   follow_us: "Folge uns",
