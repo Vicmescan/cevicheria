@@ -49,7 +49,7 @@ function ContactForm() {
           name="_next"
           value="https://cevicheria-berlin.com/confirm"
         ></input>
-        <input type="hidden" name="_captcha" value="false"></input>
+        {/* <input type="hidden" name="_captcha" value="false"></input> */}
       </Form>
     </>
   );

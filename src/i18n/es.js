@@ -7,17 +7,19 @@ export const es = {
   home_quote:
     `Desde otoño de 2013, La Cevicheria te ofrece, entre muchas otras interesantes opciones, el ceviche en un ambiente peruano y familiar en nuestro pequeño restaurante entre Oranienplatz y Kottbusser Tor, en el corazón de Kreuzberg. \n Cuidando los detalles y la identidad peruana te llevaremos en un viaje de sabores por la incomparable variedad de esta cocina única.`,
   // footer and contact
-  timetable: "Horario (A partir del 31 de Enero)",
-  from_monday: "De Lunes a Sábado: a partir de las 18h",
+  timetable: "Horario",
+  from_monday: "De Lunes a Domingo: a partir de las 18h",
   sunday: "Domingos Cerrados",
   follow_us: "Síguenos",
   // menu page
   menu_title: "MENÚ",
   starters: "ENTRADAS",
-  papas: "Papas o yuca frita a la Huancaína (vegetariano)",
+  papas: "Papas a la Huancaina (vegetariano)",
+  yuca: "Yuca frita a la Huancaina (vegetariano)",
   salmorejo: "Salmorejo vegano o con Mojama y huevo duro picado",
   pallares: "Ensalada de pallares con vinagreta de naranja y rúcula frita",
-  ensalada: "Ensalada de lentejas beluga con hinojo y crema de palta",
+  ensalada: "Ensalada de calabaza con remolacha, naranja y nueces de Brasil",
+  choros: "Choros al vino con charlotas, perejil y gengibre",
   tiradito: "Tiradito con leche de tigre de granada y almendras laminadas",
   tigre: "Leche de tigre con pescado y mariscos",
 
@@ -26,7 +28,10 @@ export const es = {
   queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - con queso de cabra",
   sopa: "Sopa de pescado y mariscos",
   tataki: "Tataki de atún con papas grilladas, cebolla encurtida y crema de Ajipanca",
-  pulpo: "Pulpo grillado con yuca frita, espinacas tiernas y causa de pallares",
+  pulpo: "Pulpo grillado con puré de apio nabo y ensalada de pimientos rojos",
+  encebollado: "Atún encebollado con tomates al romero y papas fritas",
+  atun: "Filete de atún con sofrito de pimientos, menta y alcaparras",
+
 
   cevi_vegano: "Ceviche vegano (verduras y frutas de temporada)",
   cevi_pescado: "Ceviche de pescado",

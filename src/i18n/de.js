@@ -7,17 +7,19 @@ export const de = {
   home_quote:
     'Seit Herbst 2013 bieten wir Dir, neben anderen interessanten Gerichten, das klassische peruanische Ceviche in unserem kleinen, entspannten Restaurant, gelegen zwischen Oranienplatz und Kottbusser Tor, im Herzen von Kreuzberg.\n Mit viel Liebe zum Detail nehmen wir Dich mit auf eine unverwechselbare Geschmacksreise durch die Vielfalt der peruanischen Küche.',
   // footer and contact
-  timetable: "Öffnungszeiten (ab 31. Januar)",
-  from_monday: "Von Montag bis Samstag: ab 18 Uhr",
+  timetable: "Öffnungszeiten",
+  from_monday: "Von Montag bis Sontag: ab 18 Uhr",
   sunday: "Sonntags geschlossen",
   follow_us: "Folge uns",
   // menu page
   menu_title: "SPEISEKARTE",
   starters: "VORSPEISEN",
-  papas: "Kartoffeln oder frittierter Maniok mit Huancaina Sauce (Vegetarisch)",
+  papas: "Kartoffeln mit Huancaina Sauce (Vegetarisch)",
+  yuca: "Frittierter Maniok mit Huancaina Sauce (Vegetarisch)",
   salmorejo: "Salmorejo vegan oder mit Mojama und hartgekochtem Ei",
   pallares: "Lima-Bohnen-Salat mit Orangenvinaigrette und frittiertem Rucola",
-  ensalada: "Beluga-Linsen-Salat mit Fenchel und Avocado-Creme",
+  ensalada: "Kürbissalat mit Rote Bete, Orange und Paranüssen",
+  choros: " Miesmuscheln in Wein mit Petersillien-Schalotten und Ingwer",
   tiradito: "Fisch-Carpaccio mit Granatapfel-Tigermilch und Mandelblättchen",
   tigre: "Tigermilch mit Fisch und Meeresfrüchten",
 
@@ -26,7 +28,9 @@ export const de = {
   queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - mit Ziegenkäse",
   sopa: "Fischsuppe mit Meeresfrüchten",
   tataki: "Thunfisch-Tataki mit gegrilltem Kartoffeln, eingelegter Zwiebel und Ajipanca",
-  pulpo: "Gegrillter Oktopus mit frittiertem Maniok, Babyspinat und Limabohnenpüree",
+  pulpo: "Gegrillter Oktopus mit Knollenselleriepüree und rotem Paprika-Salat",
+  encebollado: "Thunfish mit angebratenen Zwiebeln, Rosmarin-Tomaten und frittierten Kartoffeln",
+  atun: "Thunfischfilet mit Paprika-Minz-Sofrito und Kapern",
 
   cevi_vegano: "Veganes Ceviche (Gemüse und Früchte der Saison)",
   cevi_pescado: "Fisch-Ceviche",

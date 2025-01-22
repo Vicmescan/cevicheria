@@ -46,7 +46,7 @@ function Footer() {
             <h4>{t("timetable")}</h4>
             <hr></hr>
             <p>{t("from_monday")}</p>
-            <p>{t("sunday")}</p>
+            {/* <p>{t("sunday")}</p> */}
             <Container className="d-flex justify-content-around">
               <a
                 className="footer-link"

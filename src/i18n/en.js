@@ -7,17 +7,19 @@ export const en = {
   home_quote:
     'Since autumn 2013, La Cevicheria offers you, among many other interesting options, ceviche in a familiar Peruvian atmosphere in our small restaurant between Oranienplatz and Kottbusser Tor, in the heart of Kreuzberg.\n With attention to detail and Peruvian identity we will take you on a journey of flavours through the incomparable variety of this unique cuisine.',
   // footer and contact
-  timetable: "Timetable (from January 31)",
-  from_monday: "Monday to Saturday: from 18h",
+  timetable: "Timetable",
+  from_monday: "Monday to Sunday: from 18h",
   sunday: "Sundays Closed",
   follow_us: "Follow us",
   // menu page
   menu_title: "MENU",
   starters: "APPETIZERS",
-  papas: "Potatoes or fried manioc with Huancaina cream (vegetarian)",
+  papas: "Potatoes with Huancaina Sauce (vegetarian)",
+  yuca: "Fried Manioc with Huancaina Sauce (vegetarian)",
   salmorejo: "Salmorejo vegan or with Mojama and hard-boiled egg",
   pallares: "lima-bean salad with orange-vinaigrette and fried rocket",
-  ensalada: "Salad with beluga lentils, fennel and avocado-cream",
+  ensalada: "Pumpkin salad with beetroot, orange and Brazil nuts",
+  choros: "Mussels in wine with parsley-shallots and ginger",
   tiradito: "Fish-Carpaccio with pomegranate tigermilk and flaked almonds",
   tigre: "Tigermilk with fish and seafood",
 
@@ -26,7 +28,9 @@ export const en = {
   queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - with goat cheese",
   sopa: "Seafood soup",
   tataki: "Tuna-Tataki with grilled potatoes, pickled onion and Ajipanca",
-  pulpo: "Grilled octopus with fried manioc, baby spinach and Lima Bean puree",
+  pulpo: "Grilled octopus with celeryroot purée and red pepper salad",
+  encebollado: "Tuna with roasted onions, rosemary-tomatoes and fried potatoes",
+  atun: "Tuna filet with pepper-mint-sofrito and capers",
 
   cevi_vegano: "Vegan ceviche (vegetables and seasonal fruits)",
   cevi_pescado: "Fish ceviche",
