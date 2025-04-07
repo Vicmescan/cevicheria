@@ -49,7 +49,7 @@ const ContactText = () => {
       </Zoom>
       <hr></hr>
       <p>{t("from_monday")}</p>
-      <p>{t("sunday")}</p>
+      {/* <p>{t("sunday")}</p> */}
       <br></br>
       <Zoom  triggerOnce="true">
         <h3>{t("follow_us")}</h3>
