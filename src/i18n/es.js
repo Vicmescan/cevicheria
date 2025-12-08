@@ -8,7 +8,7 @@ export const es = {
     `Desde otoño de 2013, La Cevicheria te ofrece, entre muchas otras interesantes opciones, el ceviche en un ambiente peruano y familiar en nuestro pequeño restaurante entre Oranienplatz y Kottbusser Tor, en el corazón de Kreuzberg. \n Cuidando los detalles y la identidad peruana te llevaremos en un viaje de sabores por la incomparable variedad de esta cocina única.`,
   // footer and contact
   timetable: "Horario",
-  from_monday: "De Lunes a Domingo: a partir de las 18h",
+  from_monday: "De Lunes a Domingo: a partir de las 18h. Cerrado los días 24, 25 y 31 de diciembre y 1,2,3,4 de enero",
   sunday: "Domingos Cerrados",
   follow_us: "Síguenos",
   // menu page

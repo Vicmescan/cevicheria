@@ -123,10 +123,10 @@ const MenuDrinks = () => {
             <h3> {t("cocktails")} </h3>
           </Zoom>
           <br></br>
-          <MenuDrinksDrink title="Pisco Sour" additives="2" price="10" />
-          <MenuDrinksDrink title="Pisco Maracuyá" additives="2" price="10" />
-          <MenuDrinksDrink title="Pineapple Pisco" additives="2" price="10" />
-          <MenuDrinksDrink title="Chilcano de Pisco" additives="2" price="10" />
+          <MenuDrinksDrink title="Pisco Sour" additives="2" price="11" />
+          <MenuDrinksDrink title="Pisco Maracuyá" additives="2" price="11" />
+          <MenuDrinksDrink title="Pineapple Pisco" additives="2" price="11" />
+          <MenuDrinksDrink title="Chilcano de Pisco" additives="2" price="11" />
           <hr></hr>
           <Row>
             <p> {t("additives")} </p>
