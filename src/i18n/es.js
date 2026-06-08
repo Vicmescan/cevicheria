@@ -16,7 +16,7 @@ export const es = {
   starters: "ENTRADAS",
   papas: "Papas a la Huancaina (vegetariano)",
   yuca: "Yuca frita a la Huancaina o salsa brava (vegetariano)",
-  mejillones: "Mejillones al vino con zanahoria, cebolla encurtida y perejil fresco",
+  mejillones: "Mejillones al vino con zanahoria, cebolla encurtida y perejil fresco.",
   garbanzos: "Ensalada de garbanzos con calabaza, remolacha y vinagreta de miel y naranja (vegetariano)",
   salmorejo: "Salmorejo vegano o con Mojama y huevo duro picado",
   pallares: "Ensalada de pallares con vinagreta de naranja y rúcula frita",
