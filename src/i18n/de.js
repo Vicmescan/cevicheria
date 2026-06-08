@@ -8,23 +8,38 @@ export const de = {
     'Seit Herbst 2013 bieten wir Dir, neben anderen interessanten Gerichten, das klassische peruanische Ceviche in unserem kleinen, entspannten Restaurant, gelegen zwischen Oranienplatz und Kottbusser Tor, im Herzen von Kreuzberg.\n Mit viel Liebe zum Detail nehmen wir Dich mit auf eine unverwechselbare Geschmacksreise durch die Vielfalt der peruanischen Küche.',
   // footer and contact
   timetable: "Öffnungszeiten",
-  from_monday: "Von Montag bis Samstag: ab 18 Uhr",
+  from_monday: "Von Montag bis Sonntag ab 18 Uhr.",
   sunday: "Sonntags geschlossen",
   follow_us: "Folge uns",
   // menu page
   menu_title: "SPEISEKARTE",
   starters: "VORSPEISEN",
-  papas: "Kartoffeln mit Huancaina-Sauce (Vegetarisch)",
-  lentejas:
-    "Linsensalat mit Feigen, Balsamico-Vinaigrette und Süßkartoffelcreme",
-  tataki:
-    "Tuna-Tataki mit gegrillten Kartoffeln, eingelegter Zwiebel und Ajipanca-Creme",
+  papas: "Kartoffeln mit Huancaina Sauce (Vegetarisch)",
+  yuca: "Frittierter Maniok mit Huancaina Sauce oder Brava Sauce(Vegetarisch)",
+  mejillones:
+    "Miesmuscheln in Wein mit Karotte, eingelegten Zwiebeln und frischer Petersilie",
+  garbanzos:
+    "Kichererbsensalat mit Kürbis, Rote Bete und Honig-Orangen-Vinaigrette (Vegetarisch)",
+  salmorejo: "Salmorejo vegan oder mit Mojama und hartgekochtem Ei",
+  pallares: "Lima-Bohnen-Salat mit Orangenvinaigrette und frittiertem Rucola",
+  ensalada: "Kürbissalat mit Rote Bete, Orange und Paranüssen",
+  choros: " Miesmuscheln in Wein mit Petersillien-Schalotten und Ingwer",
+  tiradito: "Fisch Tiradito mit Maracuja Tigermilch, schwarzem Sesam und Basilikumöl",
   tigre: "Tigermilch mit Fisch und Meeresfrüchten",
+  beluga: "Beluga Linsensalat mit knackigem Lauch und Avocado-Creme (Vegetarisch)",
 
   hot_dishes: "WARMES ESSEN",
-  locro: "Peruanischer Kürbis-Eintopf mit Kürbiskernen",
+  locro: "Peruanischer Kürbiseintopf mit Kürbiskernen",
+  queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - mit Ziegenkäse",
   sopa: "Fischsuppe mit Meeresfrüchten",
-  pulpo: "Gegrillter Oktopus mit Pilzen, Knollenselleriepüree und Baby-Spinat",
+  tataki: "Thunfisch-Tataki mit gegrilltem Kartoffelchen und Ajipanca Salmorejo Sauce",
+  cevi_caliente:
+    "Heisse Ceviche mit Kohl, Pilzen, gelber Chilischote und Bohnenpüree und Tahini",
+  pulpo:
+    "Gegrillter Oktopus mit Süßkartoffel-Miso-Püree, Babykartoffeln und Feldsalat",
+  encebollado: "Thunfish mit angebratenen Zwiebeln, Rosmarin-Tomaten und frittierten Kartoffeln",
+  atun: "Thunfischfilet mit Paprika-Minz-Sofrito und Kapern",
+  pisto:" Andalusisches Ratatouille mit frittierten Artischocken und frischer Minze",
 
   cevi_vegano: "Veganes Ceviche (Gemüse und Früchte der Saison)",
   cevi_pescado: "Fisch-Ceviche",
@@ -35,6 +50,7 @@ export const de = {
   desserts: "NACHTISCH",
   suspiro: "Lima-Seufzer (Toffee-Crème mit Merengue)",
   sueño: "Maracuya-Traum (Maracuya-Crème, Crumble und Merengue)",
+  tarta: "Limettentorte mit Keks und geröstetem Baiser",
 
   drink_title: "GETRÄNKE",
   white_whine: "WEIßWEIN",

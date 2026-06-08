@@ -8,22 +8,38 @@ export const en = {
     'Since autumn 2013, La Cevicheria offers you, among many other interesting options, ceviche in a familiar Peruvian atmosphere in our small restaurant between Oranienplatz and Kottbusser Tor, in the heart of Kreuzberg.\n With attention to detail and Peruvian identity we will take you on a journey of flavours through the incomparable variety of this unique cuisine.',
   // footer and contact
   timetable: "Timetable",
-  from_monday: "Monday to Saturday: from 18h",
+  from_monday: "From Monday to Sunday from 6:00 pm.",
   sunday: "Sundays Closed",
   follow_us: "Follow us",
   // menu page
   menu_title: "MENU",
   starters: "APPETIZERS",
-  papas: "Potatoes with Huancaína cream (vegetarian)",
-  lentejas: "Lentil salad with figs, balsamic vinegar and sweet potato cream",
-  tataki:
-    "Tuna-Tataki with grilled potatoes, pickled onion and aji panca-paste",
+  papas: "Potatoes with Huancaina Sauce (vegetarian)",
+  yuca: "Fried Manioc with Huancaina Sauce or Brava Sauce (vegetarian)",
+  mejillones:
+    "Mussels in wine with carrot, pickled onions and fresh parsley",
+  garbanzos:
+    "Chickpea salad with pumpkin, beetroot and honey-orange vinaigrette (vegetarian)",
+  salmorejo: "Salmorejo vegan or with Mojama and hard-boiled egg",
+  pallares: "lima-bean salad with orange-vinaigrette and fried rocket",
+  ensalada: "Pumpkin salad with beetroot, orange and Brazil nuts",
+  choros: "Mussels in wine with parsley-shallots and ginger",
+  tiradito: "Fish tiradito with passionfruit tigermilk, black sesame and basil oil",
   tigre: "Tigermilk with fish and seafood",
+  beluga: "Beluga lentil salad with crispy leek and avocado cream (vegetarian)",
 
   hot_dishes: "HOT DISHES",
-  locro: "Peruvion pumpkin stew with pumpkin seeds",
+  locro: "Peruvian pumpkin stew with pumpkin seeds",
+  queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - with goat cheese",
   sopa: "Seafood soup",
-  pulpo: "Grilled octopus with celery root puree, mushrooms and baby spinach",
+  tataki: "Tuna-Tataki with grilled baby potatoes, and ajipanca salmorejo sauce",
+  cevi_caliente:
+    "Hot ceviche with cabbage, mushrooms, yellow chili pepper and bean puree and tahini",
+  pulpo:
+    "Grilled octopus with sweet potato-miso purée, baby potatoes and lamb's lettuce salad",
+  encebollado: "Tuna with roasted onions, rosemary-tomatoes and fried potatoes",
+  atun: "Tuna filet with pepper-mint-sofrito and capers",
+  pisto: "Andalusian ratatouille with fried artichokes and fresh mint",
 
   cevi_vegano: "Vegan ceviche (vegetables and seasonal fruits)",
   cevi_pescado: "Fish ceviche",
@@ -32,8 +48,9 @@ export const en = {
   cevi_nikkei: "Tuna-Ceviche with avocado and nori seaweed",
 
   desserts: "DESSERTS",
-  suspiro: "Lima-sigh (toffee cream with meringue)",
-  sueño: "Maracuyá-dream (maracuyá-cream, crumble and meringue)",
+  suspiro: "Lima-sigh (toffee cream with merengue)",
+  sueño: "Maracuyá-dream (maracuyá-cream, crumble and merengue)",
+  tarta: "Lime tart with biscuit and toasted merengue",
 
   drink_title: "DRINKS",
   white_wine: "WHITE WINE",
