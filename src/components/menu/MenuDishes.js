@@ -19,8 +19,10 @@ export default function MenuDishes() {
           {/* <MenuDishesDish title={t("salmorejo")} price={"7/9"} />
           <MenuDishesDish title={t("pallares")} price={12} /> */}
           <MenuDishesDish title={t("yuca")} price={13} />
-          <MenuDishesDish title={t("beluga")} price={14} />
-          <MenuDishesDish title={t("tiradito")} price={17} />
+          <MenuDishesDish title={t("garbanzos")} price={14} />
+          <MenuDishesDish title={t("mejillones")} price={17} />
+          {/* <MenuDishesDish title={t("beluga")} price={14} /> */}
+          {/* <MenuDishesDish title={t("tiradito")} price={17} /> */}
           {/* <MenuDishesDish title={t("tigre")} price={12} /> */}
           {/* <MenuDishesDish title={t("choros")} price={12} /> */}
           <hr></hr>
@@ -31,7 +33,8 @@ export default function MenuDishes() {
           {/* <MenuDishesDish title={t("queso")} price={10} /> */}
           {/* <MenuDishesDish title={t("sopa")} price={14} /> */}
           <MenuDishesDish title={t("tataki")} price={18} />
-          <MenuDishesDish title={t("pisto")} price={17} />
+          {/* <MenuDishesDish title={t("pisto")} price={17} /> */}
+          <MenuDishesDish title={t("cevi_caliente")} price={17} />
           {/* <MenuDishesDish title={t("encebollado")} price={17} /> */}
           {/* <MenuDishesDish title={t("atun")} price={19} /> */}
           <MenuDishesDish title={t("pulpo")} price={29} />

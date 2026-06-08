@@ -8,7 +8,7 @@ export const en = {
     'Since autumn 2013, La Cevicheria offers you, among many other interesting options, ceviche in a familiar Peruvian atmosphere in our small restaurant between Oranienplatz and Kottbusser Tor, in the heart of Kreuzberg.\n With attention to detail and Peruvian identity we will take you on a journey of flavours through the incomparable variety of this unique cuisine.',
   // footer and contact
   timetable: "Timetable",
-  from_monday: "From Monday to Sunday from 6:00 pm. Closed on December 24th, 25th and 31st and January 1st, 2nd, 3rd and 4th",
+  from_monday: "From Monday to Sunday from 6:00 pm.",
   sunday: "Sundays Closed",
   follow_us: "Follow us",
   // menu page
@@ -16,6 +16,10 @@ export const en = {
   starters: "APPETIZERS",
   papas: "Potatoes with Huancaina Sauce (vegetarian)",
   yuca: "Fried Manioc with Huancaina Sauce or Brava Sauce (vegetarian)",
+  mejillones:
+    "Mussels in wine with carrot, pickled onions and fresh parsley",
+  garbanzos:
+    "Chickpea salad with pumpkin, beetroot and honey-orange vinaigrette (vegetarian)",
   salmorejo: "Salmorejo vegan or with Mojama and hard-boiled egg",
   pallares: "lima-bean salad with orange-vinaigrette and fried rocket",
   ensalada: "Pumpkin salad with beetroot, orange and Brazil nuts",
@@ -29,7 +33,10 @@ export const en = {
   queso: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 - with goat cheese",
   sopa: "Seafood soup",
   tataki: "Tuna-Tataki with grilled baby potatoes, and ajipanca salmorejo sauce",
-  pulpo: "Grilled octopus with causa limeña and baby spinach with white sesame sauce",
+  cevi_caliente:
+    "Hot ceviche with cabbage, mushrooms, yellow chili pepper and bean puree and tahini",
+  pulpo:
+    "Grilled octopus with sweet potato-miso purée, baby potatoes and lamb's lettuce salad",
   encebollado: "Tuna with roasted onions, rosemary-tomatoes and fried potatoes",
   atun: "Tuna filet with pepper-mint-sofrito and capers",
   pisto: "Andalusian ratatouille with fried artichokes and fresh mint",
