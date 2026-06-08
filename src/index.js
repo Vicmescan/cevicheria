@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import "./styles/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/index.css";
 
 export default function ScrollUp() {
   useEffect(() => {
