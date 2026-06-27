@@ -24,7 +24,9 @@ export const en = {
   pallares: "lima-bean salad with orange-vinaigrette and fried rocket",
   ensalada: "Pumpkin salad with beetroot, orange and Brazil nuts",
   choros: "Mussels in wine with parsley-shallots and ginger",
-  tiradito: "Fish tiradito with passionfruit tigermilk, black sesame and basil oil",
+  tiradito: "Fish tiradito with smoked chili 'leche de tigre', passion fruit, pecans, and black sesame",
+  tartar: "Salmon tartare with 'causa a la limeña' and mild chili mayonnaise",
+  quinoa: "Quinoa salad with green asparagus, mint, and mascarpone cream (vegetarian)",
   tigre: "Tigermilk with fish and seafood",
   beluga: "Beluga lentil salad with crispy leek and avocado cream (vegetarian)",
 
@@ -35,8 +37,7 @@ export const en = {
   tataki: "Tuna-Tataki with grilled baby potatoes, and ajipanca salmorejo sauce",
   cevi_caliente:
     "Hot ceviche with cabbage, mushrooms, yellow chili pepper and bean puree and tahini",
-  pulpo:
-    "Grilled octopus with sweet potato-miso purée, baby potatoes and lamb's lettuce salad",
+  pulpo: "Grilled octopus with cassava, chimichurri sauce, fresh avocado cream, and baby spinach",
   encebollado: "Tuna with roasted onions, rosemary-tomatoes and fried potatoes",
   atun: "Tuna filet with pepper-mint-sofrito and capers",
   pisto: "Andalusian ratatouille with fried artichokes and fresh mint",
@@ -62,7 +63,7 @@ export const en = {
   cocktails: "PISCO COCKTAILS",
 
   bottle: "bottle",
-  juices: "Apple/Orange/Ananas",
+  juices: "Apple / Pineapple / Rhubarb / Juice Spritzer",
   water: "WATER",
   gas: "Sparkling or still",
   tee: "Various sorts of tea",

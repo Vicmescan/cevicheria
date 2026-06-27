@@ -39,17 +39,18 @@ const MenuDrinks = () => {
             price={[5, "---", 32]}
             no02={true}
           />
+          <MenuDrinksDrink title="Weissweinschorle" additives="4" price="6" />
           <Zoom  triggerOnce="true">
             <h3> {t("red_wine")} </h3>
           </Zoom>
           <br></br>
           <MenuDrinksWine
-            title="Lacrimus Rex. Garnacha y Graciano, España"
+            title="Lacrimus Rex, Garnacha y Graciano, Rioja"
             price={[4.5, 8, 26]}
           />
           <MenuDrinksWine
-            title="Los Frailes, Monastrell, y Garnacha, Valencia"
-            price={[4.5, 8, 26]}
+            title="Txakoli Rosé"
+            price={[4, 7, 23]}
           />
           <Zoom  triggerOnce="true">
             <h3> {t("beer")} </h3>
@@ -83,23 +84,10 @@ const MenuDrinks = () => {
           <h3> {t("soft_drinks")} </h3>
           </Zoom>
           <br></br>
-          <MenuDrinksDrink
-            title="Fritz Honigmelone"
-            size="0.33"
-            price="3.50"
-          />
-          <MenuDrinksDrink
-            title="Fritz Zitrone"
-            size="0.33"
-            price="3.50"
-          />
-          <MenuDrinksDrink
-            title="Solicola"
-            additives="1"
-            size="0.33"
-            price="3.50"
-          />
-          <MenuDrinksDrink title={t("juices")} size="0.33" price="3.50" />
+          <MenuDrinksDrink title="ChichaMorada" size="0.33" price="5" />
+          <MenuDrinksDrink title="Fritz Zitrone" size="0.33" price="3.50" />
+          <MenuDrinksDrink title="Fritz Cola" additives="1" size="0.33" price="3.50" />
+          <MenuDrinksDrink title={t("juices")} size="0.30" price="3.50" />
           <hr></hr>
           <Zoom  triggerOnce="true">
             <h3> {t("water")} </h3>

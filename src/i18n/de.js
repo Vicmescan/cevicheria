@@ -24,7 +24,9 @@ export const de = {
   pallares: "Lima-Bohnen-Salat mit Orangenvinaigrette und frittiertem Rucola",
   ensalada: "Kürbissalat mit Rote Bete, Orange und Paranüssen",
   choros: " Miesmuscheln in Wein mit Petersillien-Schalotten und Ingwer",
-  tiradito: "Fisch Tiradito mit Maracuja Tigermilch, schwarzem Sesam und Basilikumöl",
+  tiradito: "Fisch-Tiradito mit geräucherter Chili-'Leche de Tigre', Passionsfrucht, Pekannüssen und schwarzem Sesam",
+  tartar: "Lachstatar mit 'Causa a la limeña' und milder Chili-Mayonnaise",
+  quinoa: "Quinoasalat mit grünem Spargel, Minze und Mascarponecreme (vegetarisch)",
   tigre: "Tigermilch mit Fisch und Meeresfrüchten",
   beluga: "Beluga Linsensalat mit knackigem Lauch und Avocado-Creme (Vegetarisch)",
 
@@ -35,8 +37,7 @@ export const de = {
   tataki: "Thunfisch-Tataki mit gegrilltem Kartoffelchen und Ajipanca Salmorejo Sauce",
   cevi_caliente:
     "Heisse Ceviche mit Kohl, Pilzen, gelber Chilischote und Bohnenpüree und Tahini",
-  pulpo:
-    "Gegrillter Oktopus mit Süßkartoffel-Miso-Püree, Babykartoffeln und Feldsalat",
+  pulpo: "Gegrillter Oktopus mit Yuka, Chimichurri-Sauce, frischer Avocadocreme und Babyspinat",
   encebollado: "Thunfish mit angebratenen Zwiebeln, Rosmarin-Tomaten und frittierten Kartoffeln",
   atun: "Thunfischfilet mit Paprika-Minz-Sofrito und Kapern",
   pisto:" Andalusisches Ratatouille mit frittierten Artischocken und frischer Minze",
@@ -62,7 +63,7 @@ export const de = {
   cocktails: "PISCO-COCKTAILS",
 
   bottle: "Flasche",
-  juices: "Apfel/Orange/Ananas",
+  juices: "Apfel / Ananas / Rhabarber / Saftschorle",
   water: "WASSER",
   gas: "Laut oder leise",
   tee: "Verschiedene Teesorten",

@@ -22,7 +22,9 @@ export const es = {
   pallares: "Ensalada de pallares con vinagreta de naranja y rúcula frita",
   ensalada: "Ensalada de calabaza con remolacha, naranja y nueces de Brasil",
   choros: "Choros al vino con charlotas, perejil y gengibre",
-  tiradito: "Tiradito de pescado con leche de tigre de maracuyá, sésamo negro y aceite de albahaca",
+  tiradito: "Tiradito de pescado con leche de tigre ají ahumado, maracuyá, pecanas y sésamo negro",
+  tartar: "Tartar de salmón con causa la limeña y mayonesa de ají suave",
+  quinoa: "Ensalada de quinoa con espárragos verdes, menta y crema de mascarpone (vegetariano)",
   tigre: "Leche de tigre con pescado y mariscos",
   beluga: "Ensalada de lentejas beluga con puerro crujiente y crema de palta (vegetariano)",
 
@@ -32,7 +34,7 @@ export const es = {
   sopa: "Sopa de pescado y mariscos",
   tataki: "Tataki de atún con papitas grilladas y espejo de salmorejo de ajipanca",
   cevi_caliente: "Ceviche caliente col, setas, aji amarillo, y puré de habichuelas y tahini",
-  pulpo: "Pulpo grillado con puré de camote y miso, papas baby y ensalada de canónigos",
+  pulpo: "Pulpo grillado con yuca, salsa chimichurri, crema fresca de palta y espinacas baby",
   encebollado: "Atún encebollado con tomates al romero y papas fritas",
   atun: "Filete de atún con sofrito de pimientos, menta y alcaparras",
   pisto: "Pisto andaluz con alcachofas fritas y menta fresca",
@@ -59,7 +61,7 @@ export const es = {
   cocktails: "CÓCTELES DE PISCO",
 
   bottle: "botella",
-  juices: "Manzana/Naranja/Piña",
+  juices: "Manzana / Ananá / Ruibarbo / Jugo de Soda",
   water: "AGUA",
   gas: "Con o sin gas",
   tee: "Surtido de tés",
